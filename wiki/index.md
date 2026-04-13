@@ -15,3 +15,4 @@ This index is the entry point for finding relevant context inside the wiki.
 - [projects/second-brain/map.md](./projects/second-brain/map.md) - Repository layout, file roles, and operational notes.
 - [projects/second-brain/skills/README.md](./projects/second-brain/skills/README.md) - Project-specific workflows for maintaining the wiki.
 - [projects/second-brain/knowledge/README.md](./projects/second-brain/knowledge/README.md) - Project-specific learnings and operational notes.
+- [projects/second-brain/knowledge/repository-hosting.md](./projects/second-brain/knowledge/repository-hosting.md) - GitHub repository URL, visibility, branch, and publication notes.

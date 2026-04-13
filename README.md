@@ -7,6 +7,7 @@ A working implementation of the `LLM Wiki` pattern for maintaining shared contex
 - Pattern overview: [LLM-Wiki.md](./LLM-Wiki.md)
 - Live wiki index: [wiki/index.md](./wiki/index.md)
 - Activity log: [wiki/log.md](./wiki/log.md)
+- Public repository: <https://github.com/kawaiiTaiga/second_brain>
 
 ## Purpose
 

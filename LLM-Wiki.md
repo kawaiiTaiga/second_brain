@@ -1,6 +1,14 @@
 # LLM Wiki
 A pattern for building a shared knowledge store between you and your LLM agent, designed for solo entrepreneurs running multiple projects.
 
+## Current Instance
+
+This pattern is currently instantiated in the public repository `kawaiiTaiga/second_brain`.
+
+- Repository URL: <https://github.com/kawaiiTaiga/second_brain>
+- Visibility: Public
+- Live wiki location: `wiki/`
+
 ## Core Idea
 
 When you work on projects with an LLM agent, knowledge gets created and lost every session. Edge cases you discovered, architecture decisions you made, conventions you established — all gone the next time you start a conversation. This pattern fixes that.
