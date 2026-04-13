@@ -1,42 +1,45 @@
 # tiaga_face_v0.1 Prompts
 
-## Current Real Prompt Asset
+## Canonical Prompt Assets
 
-- Present in repository: `transient-dsl-prompt.md`
+- Root file: `FACE_FORMULA_PROMPT_KO.md`
+- Older transient-oriented file: `transient-dsl-prompt.md`
 
-The older wiki reference to `FACE_FORMULA_PROMPT_KO.md` is stale. That file is not present in the current `TAIGA_FACE` workspace and should no longer be treated as the canonical prompt source.
+Use `FACE_FORMULA_PROMPT_KO.md` as the current main prompt for external models.
 
-## Product Requirement
+## What The Current Prompt Encodes
 
-The project needs a canonical prompt surface that is visible from the app and easy to copy.
+The prompt explicitly teaches:
+- compact coordinate semantics,
+- safe value ranges,
+- that the system is formula-driven, not keyframe-driven,
+- that temporary reactions should use transient behavior,
+- that strong smile is a rounded crescent-band regime,
+- that ordinary `HAPPY` should stay softer and avoid the joker/sneer look.
 
-Required behavior:
+## How To Use It
 
-- show one executable prompt that explains how the LLM should emit face DSL,
-- expose a copy button next to that prompt,
-- let the user move directly from copied prompt -> LLM -> returned YAML -> paste into runtime.
+1. Paste the full prompt block from `FACE_FORMULA_PROMPT_KO.md`.
+2. Replace only the final `User request`.
+3. Ask for one YAML object only.
+4. Reformat the returned YAML if indentation is broken before testing it.
 
-## Why This Matters
+## Good Request Language
 
-The project's main claim is that an LLM can express behavior through formulas.
+For ordinary happy:
+- `soft happy`
+- `warm happy`
+- `not joker-like`
+- `not an extreme crescent smile`
 
-Without a prominent prompt surface:
+For strong closed-eye smile:
+- `strong crescent smile`
+- `rounded parenthesis-like closed-eye smile`
 
-- users have to reconstruct instructions manually,
-- outputs become less consistent,
-- the product reads like "a local face renderer" instead of "a formula interface for LLM expression generation."
+For transient reactions:
+- `temporary reaction`
+- `returns to idle`
 
-## Prompt Guidance
+## Prompting Principle
 
-The canonical prompt should teach:
-
-- output only YAML,
-- formula-driven behavior rather than keyframes,
-- compact face mode as the preferred control space,
-- transient behavior when a temporary reaction is intended,
-- safe expression semantics for `openness`, `squint`, `smile`, `roundness`, `slant`, `asymmetry`, `gaze`, `glow`, and `warmth`,
-- use of `time`, `local_time`, `env(...)`, `decay(...)`, and related helpers.
-
-## UX Rule
-
-Treat the copyable prompt as part of the runtime UI and onboarding flow, not a hidden developer note.
+The prompt should constrain the geometry enough that different models stay inside the same emotional family, while still allowing stylistic variation in formulas.

@@ -2,16 +2,8 @@
 
 ## Workspace
 
-- Local workspace path: `C:\Users\dukes\Downloads\hampter_lab\TAIGA_FACE`
-
-## GitHub
-
-- Owner: `kawaiiTaiga`
-- Repository: `taiga-face`
-- Remote name: `origin`
-- Default branch: `main`
-- Repository URL: <https://github.com/kawaiiTaiga/taiga-face>
-- Clone URL: `https://github.com/kawaiiTaiga/taiga-face.git`
+- Local workspace path: `C:\Users\dukes\Downloads\새 폴더 (3)`
+- Local wiki access path from the workspace: `C:\Users\dukes\Downloads\새 폴더 (3)\wiki`
 
 ## Runtime
 
@@ -19,7 +11,12 @@
 - Start command: `npm start`
 - Alternate start command: `node server.mjs`
 
-## Operational Note
+## Git State
 
-- This subproject has its own git repository.
-- The second-brain wiki documents it, but the runtime source itself is hosted separately at `https://github.com/kawaiiTaiga/taiga-face`.
+- This subproject workspace is not currently tracked as its own published git repository inside this wiki.
+- The durable wiki that documents it is published in the second-brain repository:
+  - Repository URL: `https://github.com/kawaiiTaiga/second_brain`
+  - Clone URL: `https://github.com/kawaiiTaiga/second_brain.git`
+  - Remote name: `origin`
+  - Branch: `main`
+  - Local clone path: `C:\Users\dukes\Downloads\새 폴더 (3)\second_brain`

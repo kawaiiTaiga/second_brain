@@ -37,7 +37,6 @@ This index is the entry point for finding relevant context inside the wiki.
 - [projects/hampter/subprojects/tiaga_face_v0.1/knowledge/README.md](./projects/hampter/subprojects/tiaga_face_v0.1/knowledge/README.md) - Subproject knowledge hub.
 - [projects/hampter/subprojects/tiaga_face_v0.1/knowledge/design.md](./projects/hampter/subprojects/tiaga_face_v0.1/knowledge/design.md) - Architecture, philosophy, and DSL model.
 - [projects/hampter/subprojects/tiaga_face_v0.1/knowledge/prompts.md](./projects/hampter/subprojects/tiaga_face_v0.1/knowledge/prompts.md) - Prompt assets and usage rules.
-- [projects/hampter/subprojects/tiaga_face_v0.1/knowledge/usability-and-surface.md](./projects/hampter/subprojects/tiaga_face_v0.1/knowledge/usability-and-surface.md) - Product framing and the copyable prompt requirement.
 - [projects/hampter/subprojects/tiaga_face_v0.1/knowledge/smile-shape.md](./projects/hampter/subprojects/tiaga_face_v0.1/knowledge/smile-shape.md) - Smile geometry and renderer regime notes.
 - [projects/hampter/subprojects/tiaga_face_v0.1/knowledge/known-issues.md](./projects/hampter/subprojects/tiaga_face_v0.1/knowledge/known-issues.md) - Durable quirks and caveats.
 - [projects/hampter/subprojects/tiaga_face_v0.1/knowledge/repository-hosting.md](./projects/hampter/subprojects/tiaga_face_v0.1/knowledge/repository-hosting.md) - Exact local workspace and runtime locations for this subproject.

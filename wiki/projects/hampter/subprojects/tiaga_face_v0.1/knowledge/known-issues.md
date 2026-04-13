@@ -17,12 +17,6 @@ Always normalize indentation before judging the formula itself.
 
 Treat the wiki pages and the newer prompt/analysis files as the safer references until that document is repaired.
 
-## Prompt Surface Gap
-
-The current app surface does not yet expose a first-class copyable canonical prompt.
-
-That is a product gap because the main value proposition depends on users being able to move cleanly from natural-language request to LLM-generated DSL.
-
 ## Port Reuse On Local Server
 
 If `node server.mjs` returns `EADDRINUSE`, the usual cause is that the server is already running on port `4173`.
