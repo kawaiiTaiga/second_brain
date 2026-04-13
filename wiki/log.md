@@ -17,3 +17,8 @@
 - Added parent project pages for `hampter_lab_branding`.
 - Added `website` as a subproject with status, map, skills, and hosting knowledge pages.
 - Recorded the live website repository, Vercel deployment target, and the TAIGA face runtime integration approach.
+
+## [2026-04-13] hampter_lab_branding | Expanded website operating knowledge
+- Added brand-direction notes at the parent project level.
+- Added website knowledge pages for content workflow, routes and surfaces, and TAIGA face runtime integration.
+- Expanded the website skill page to include wiki usage and deployment troubleshooting rules.

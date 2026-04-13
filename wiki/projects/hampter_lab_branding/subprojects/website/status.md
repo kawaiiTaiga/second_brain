@@ -13,6 +13,7 @@ The `website` subproject is the live Astro-based HAMPTER LAB site. It functions 
 - Homepage currently shows only one real `MAKES` entry: `TAIGA Face Runtime`
 - `DEV LOG` and `/lab/` are empty-state placeholders until real posts are published
 - Mock detail routes for old `makes` and `lab` entries were removed
+- Related Codex skills are now filed in the wiki as part of this subproject context
 
 ## Next
 
