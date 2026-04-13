@@ -32,6 +32,11 @@
 - Added website knowledge pages for content workflow, routes and surfaces, and TAIGA face runtime integration.
 - Expanded the website skill page to include wiki usage and deployment troubleshooting rules.
 
+## [2026-04-13] hampter | Refreshed tiaga_face_v0.1 for current formula-first positioning
+- Rewrote stale path and repository facts to match `C:\Users\dukes\Downloads\hampter_lab\TAIGA_FACE` and `https://github.com/kawaiiTaiga/taiga-face`.
+- Updated the subproject status, design, prompts, and workflow pages around the current priority: LLM-authored formulas are the core value.
+- Added a durable usability note that the product needs a visible canonical prompt and copy button in the app surface.
+
 ## [2026-04-13] rf | Added RF parent project and startopolgy10 subproject
 - Added `rf` as the parent wiki project for wireless topology and middleware work.
 - Added `startopolgy10` under `projects/rf/subprojects/` to capture the Fleet AirLink star-topology implementation.

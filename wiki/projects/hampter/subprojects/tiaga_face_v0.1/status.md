@@ -1,41 +1,46 @@
 # tiaga_face_v0.1 Status
 
 Parent project:
+
 - `hampter`
 
 ## Summary
 
-`tiaga_face_v0.1` is a HAMPTER subproject: a vanilla HTML + WebGL2 robot-eye face renderer driven by a formula DSL. The runtime continuously evaluates formulas over time, blends temporary behaviors over an always-running idle face, and renders a stylized black-and-white EVE-like eye face.
+`tiaga_face_v0.1` is a formula-driven robot-eye face runtime. The important product claim is not merely that a face runs on the web. The important claim is that an LLM can describe expression behavior as formulas and the runtime can execute those formulas continuously.
 
 ## Current State
 
-- The app runs locally with `node server.mjs` or `npm start`.
-- The renderer is WebGL2 with a shader-driven eye renderer and a compact semantic coordinate system.
-- The runtime supports:
-  - compact face mode,
-  - direct low-level face mode,
-  - transient overlays with automatic return to idle,
-  - time-based formulas and helper functions.
-- External models can generate YAML formulas directly. The current approach assumes the model can handle coordinate-like parameters as long as the prompt is precise.
-- The ordinary presets are usable. `HAPPY` has been softened to avoid the "joker" look.
-- Strong smile is no longer treated as a plain lid-clipped eye. It now blends toward a crescent-band shape family in the renderer.
+- Local workspace path: `C:\Users\dukes\Downloads\hampter_lab\TAIGA_FACE`
+- Published repository: <https://github.com/kawaiiTaiga/taiga-face>
+- The runtime is a standalone local HTML + WebGL2 application with:
+  - preset buttons,
+  - direct YAML/JSON DSL input,
+  - reactive sliders,
+  - live output inspection.
+- The current browser surface is usable for direct editing, but it still frames itself too much as a local runtime demo.
+- The current repo includes a transient prompt asset at `transient-dsl-prompt.md`.
+- The current repo does not yet expose a canonical, user-facing "copy this prompt into an LLM" surface with a copy button.
 
 ## Current Priorities
 
-- Keep the ordinary `HAPPY` expression in a soft, warm range.
-- Reserve the high-smile crescent-band regime for explicit strong smile requests.
-- Preserve the HAMPTER philosophy: runtime behavior lives continuously, formulas are artifacts, and the LLM does not drive the face frame-by-frame.
-- Keep the wiki pages current when prompt rules, renderer shape families, or coordinate semantics change.
+- Emphasize that LLM-authored formulas are the core value, not the fact that the renderer is on the web.
+- Provide one canonical executable prompt in the app surface.
+- Add a clear copy button for that prompt so a user can move from "describe an expression" to "generate DSL" without reconstructing the prompt manually.
+- Keep the formula runtime and renderer semantics aligned with the prompt so generated outputs stay executable.
 
 ## Next
 
-- If more smile work is needed, tune the renderer shape family first before adding new emotion-specific rules.
-- If compact semantics change, re-run the compact-axis analysis and update the knowledge pages.
-- If prompt strategy changes, update both `knowledge/prompts.md` and the root prompt files.
+- Add a dedicated prompt surface in the UI that explains the goal in LLM terms and includes copy-to-clipboard behavior.
+- Treat the prompt as a first-class product surface, not just a hidden doc file.
+- Update the app wording so the main flow is:
+  1. ask an LLM for a formula,
+  2. paste generated YAML,
+  3. run the expression.
+- Keep the wiki current whenever the canonical prompt, UX flow, or repository structure changes.
 
 ## Decisions
 
-- The DSL is allowed to stay coordinate-like. Human-friendly naming is secondary to precise controllability.
-- Future work should prefer fixing the coordinate system or the renderer shape family over adding emotion-specific hardcoded modes.
-- Smile is special. Most expressions can be produced by lid-clip geometry, but strong smile needs a separate crescent-band renderer regime.
-- The wiki is the durable reference layer for future agents; root notes are treated as implementation artifacts, not the only source of truth.
+- The primary narrative is "LLM can express face behavior through formulas."
+- The web runtime is a proving surface for that narrative, not the end in itself.
+- Prompt usability is a product requirement, not optional documentation.
+- The prompt must be easy to copy and easy to execute against the runtime.

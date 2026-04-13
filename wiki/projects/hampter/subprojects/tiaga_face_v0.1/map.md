@@ -1,25 +1,15 @@
 # tiaga_face_v0.1 Map
 
 Parent project:
+
 - `hampter`
-
-Exact local workspace:
-- `C:\Users\dukes\Downloads\새 폴더 (3)`
-
-Local runtime URL:
-- `http://127.0.0.1:4173`
 
 ## Repository Layout
 
 ```text
-/
-  analysis/
-    capture-smile-sweep.mjs
-    compact-axis-analysis.mjs
+C:\Users\dukes\Downloads\hampter_lab\TAIGA_FACE
   artifacts/
-    ...
-  wiki/
-    ...
+  node_modules/
   app.js
   dsl-runtime.js
   renderer.js
@@ -27,46 +17,45 @@ Local runtime URL:
   styles.css
   server.mjs
   package.json
-  FACE_COORDINATE_ANALYSIS.md
-  FACE_FORMULA_PROMPT_KO.md
+  package-lock.json
   transient-dsl-prompt.md
+  FACE_DSL_SYSTEM.md
+  roundtrip-transient-doubt.yaml
+  eve-eyes-v2.html
+  Anki-Eyes.jpg
 ```
 
 ## Key Runtime Files
 
-- `app.js` - browser entry point; wires UI, behavior engine, and renderer.
-- `dsl-runtime.js` - DSL parser, formula compiler, compact mapping, transient overlay engine, idle/autonomy behavior, and evaluation helpers.
-- `renderer.js` - WebGL2 renderer and fragment shader source.
-- `index.html` - application shell and control panel.
-- `styles.css` - UI styling.
-- `server.mjs` - minimal static file server, default port `4173`.
+- `app.js` - browser entry point; wires UI controls, behavior engine, and renderer.
+- `dsl-runtime.js` - DSL parsing, formula compilation, preset definitions, compact mapping, transient overlay logic, and autonomous behavior helpers.
+- `renderer.js` - WebGL2 renderer and shader source for the eye display.
+- `index.html` - application shell with presets, DSL editor, sliders, and live output panel.
+- `styles.css` - standalone UI styling for the local runtime.
+- `server.mjs` - minimal local server for the standalone app.
+- `package.json` - local start command definition.
 
-## Analysis and Artifacts
+## Prompt And Usage Assets
 
-- `analysis/capture-smile-sweep.mjs` - captures smile sweep images through the live app using Playwright.
-- `analysis/compact-axis-analysis.mjs` - measures compact-coordinate effects and writes analytical summaries.
-- `artifacts/smile-sweep-strip.png` - current smile sweep overview image.
-- `FACE_COORDINATE_ANALYSIS.md` - generated analysis summary for the compact coordinate system.
+- `transient-dsl-prompt.md` - current real prompt asset present in the repo.
+- `FACE_DSL_SYSTEM.md` - system explanation document; usable as a reference but terminal rendering can be garbled.
+- `roundtrip-transient-doubt.yaml` - example DSL artifact.
 
-## Prompt and Documentation Assets
+## Repository Facts
 
-- `FACE_FORMULA_PROMPT_KO.md` - current formula-generation prompt for external models.
-- `transient-dsl-prompt.md` - older transient-oriented prompt.
-- `FACE_DSL_SYSTEM.md` - older system note; keep with caution because some terminal environments show mojibake when reading it.
-
-## Related Wiki Pages
-
-- `wiki/projects/hampter/status.md` - parent project summary.
-- `wiki/projects/hampter/subprojects/tiaga_face_v0.1/knowledge/repository-hosting.md` - exact local path and runtime location.
+- Local git repo exists in `C:\Users\dukes\Downloads\hampter_lab\TAIGA_FACE\.git`
+- Remote: `origin`
+- GitHub URL: <https://github.com/kawaiiTaiga/taiga-face>
 
 ## Execution Notes
 
-- Start the app with `npm start` or `node server.mjs`.
-- Default URL is `http://127.0.0.1:4173`.
-- If `EADDRINUSE` appears, the server is usually already running on `4173`.
+- Start command: `npm start`
+- Alternate start command: `node server.mjs`
+- Default local URL from the current server implementation: `http://127.0.0.1:4173`
 
 ## Search Hints
 
-- Search for `mapCompactChannelsToFace` in `dsl-runtime.js` for compact coordinate behavior.
-- Search for `sampleEnvelope` in `dsl-runtime.js` for transient timing.
-- Search for `smileCurve`, `smileBandDist`, and `smileShapeBlend` in `renderer.js` for the smile renderer regime.
+- Search `PRESETS` in `dsl-runtime.js` for built-in behavior examples.
+- Search `applyBehavior` in `app.js` for the current user execution path.
+- Search `createBehaviorEngine` in `dsl-runtime.js` for the execution model.
+- Search `createRenderer` in `renderer.js` for the draw path.

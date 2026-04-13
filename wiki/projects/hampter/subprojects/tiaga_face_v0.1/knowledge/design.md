@@ -1,86 +1,63 @@
 # tiaga_face_v0.1 Design
 
-## High-Level Philosophy
+## Core Product Position
 
-This project follows the HAMPTER idea of separating thinking from acting.
+The project should be understood as an LLM-to-expression runtime.
 
-- The runtime is always alive.
-- The LLM does not control the face frame-by-frame.
-- The LLM outputs a behavior artifact: a formula DSL that the runtime evaluates every frame.
-- The last valid behavior must keep running even without a live model connection.
+The key value is:
 
-The DSL is therefore a behavior description, not a pose snapshot.
+- an LLM can output formula DSL,
+- that DSL can be pasted into the runtime,
+- the runtime evaluates it continuously and renders a face.
 
-## Architecture
+The key value is not simply "there is a web page with eyes on it."
 
-### Runtime layer
+## Operating Philosophy
+
+- The runtime stays alive and evaluates formulas every frame.
+- The LLM should produce behavior artifacts, not frame-by-frame commands.
+- The face is a continuously computed result of formulas plus transient overlays.
+- A valid formula should remain runnable after generation without a live LLM connection.
+
+## Architectural Layers
+
+### Runtime Layer
 
 `dsl-runtime.js` owns:
-- DSL parsing,
-- formula compilation,
-- evaluation scope (`time`, `local_time`, helpers),
-- compact-coordinate mapping,
-- transient overlay timing,
-- idle/base behavior state,
-- evaluation helpers for testing.
 
-### Rendering layer
+- behavior parsing,
+- formula compilation,
+- evaluation helpers,
+- preset definitions,
+- compact channel mapping,
+- transient overlays,
+- idle/autonomous behavior logic.
+
+### Rendering Layer
 
 `renderer.js` owns:
+
 - WebGL2 setup,
-- fragment shader source,
-- eye rendering,
-- final black-and-white compositing.
+- shader program creation,
+- eye rendering and black/white compositing.
 
-The renderer should receive numbers and draw. It should not become a story engine.
+### Surface Layer
 
-## DSL Model
+`index.html` and `app.js` own:
 
-There are two useful face-entry styles:
+- preset browsing,
+- DSL paste/apply flow,
+- reactive input sliders,
+- live output inspection,
+- the prompt-to-runtime usability path.
 
-1. Direct low-level eye parameters.
-2. `face.mode: compact`, which is the preferred control space.
+## UX Interpretation
 
-Compact channels:
-- `openness`
-- `squint`
-- `smile`
-- `roundness`
-- `slant`
-- `asymmetry`
-- optional `spacing`
-- `gaze`
-- `glow`
-- `warmth`
+The most important user journey should be:
 
-The project currently assumes models can handle coordinate-like parameters if the prompt is precise enough.
+1. user describes a desired expression in natural language,
+2. an LLM converts that request into YAML formula DSL,
+3. user pastes the result into the app,
+4. runtime executes it immediately.
 
-## Time Model
-
-This is not a keyframe system.
-
-Each numeric field may be:
-- a constant,
-- or a formula evaluated every frame.
-
-Important symbols:
-- `time` - global time since the app started.
-- `local_time` - time since the current transient started.
-- `env(attack, hold, release)` - per-channel envelope.
-- `decay(rate)` - local exponential decay.
-- `progress(duration)` - normalized local progress.
-
-The transient layer is separate from per-channel timing:
-- `behavior.attack/hold/release` controls the whole overlay lifetime.
-- `env(...)` lets one channel bloom and fade inside that lifetime.
-
-## Design Position On Parameter Naming
-
-This project no longer treats human readability as the top constraint.
-
-The better rule is:
-- coordinate precision first,
-- prompt clarity second,
-- human intuition third.
-
-If a more coordinate-like basis is better for the LLM, that is acceptable as long as the documentation is strong.
+That means the prompt surface is part of the product, not just documentation.
