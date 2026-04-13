@@ -8,6 +8,7 @@ A working implementation of the `LLM Wiki` pattern for maintaining shared contex
 - Live wiki index: [wiki/index.md](./wiki/index.md)
 - Activity log: [wiki/log.md](./wiki/log.md)
 - Public repository: <https://github.com/kawaiiTaiga/second_brain>
+- Tracked Codex skill copy: [skills/llm-wiki/SKILL.md](./skills/llm-wiki/SKILL.md)
 
 ## Purpose
 

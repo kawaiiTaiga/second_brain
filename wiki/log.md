@@ -8,6 +8,10 @@
 - Created the public GitHub repository `kawaiiTaiga/second_brain`.
 - Recorded hosting metadata in `projects/second-brain/knowledge/repository-hosting.md`.
 
+## [2026-04-13] second-brain | Tracked llm-wiki skill in repository
+- Added a repository-managed copy of the `llm-wiki` Codex skill under `skills/llm-wiki/`.
+- This keeps the GitHub repository in sync with the locally installed skill rules and templates.
+
 ## [2026-04-13] hampter | Added tiaga_face_v0.1 as subproject
 - Added `hampter` as a parent project in the wiki hierarchy.
 - Filed `tiaga_face_v0.1` under `projects/hampter/subprojects/tiaga_face_v0.1/`.
