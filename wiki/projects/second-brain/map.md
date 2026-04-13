@@ -18,6 +18,17 @@
         map.md
         skills/
         knowledge/
+      hampter/
+        status.md
+        map.md
+        skills/
+        knowledge/
+        subprojects/
+          tiaga_face_v0.1/
+            status.md
+            map.md
+            skills/
+            knowledge/
 ```
 
 ## File Roles
@@ -30,6 +41,9 @@
 - `wiki/projects/second-brain/status.md` - Current project state and next actions.
 - `wiki/projects/second-brain/map.md` - Structural reference for this repository.
 - `wiki/projects/second-brain/knowledge/repository-hosting.md` - GitHub hosting and publication details.
+- `wiki/projects/hampter/status.md` - Parent-level HAMPTER context.
+- `wiki/projects/hampter/subprojects/tiaga_face_v0.1/status.md` - Subproject state for the face renderer.
+- `wiki/projects/hampter/subprojects/tiaga_face_v0.1/map.md` - Exact source layout and local runtime locations for the face renderer.
 
 ## Notes
 

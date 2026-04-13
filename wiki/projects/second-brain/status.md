@@ -10,12 +10,14 @@ This repository is the first working instance of the `LLM Wiki` pattern. It now 
 - `wiki/` exists and is ready to hold persistent project context.
 - The repository is published publicly at `https://github.com/kawaiiTaiga/second_brain`.
 - Repository metadata is documented in `knowledge/repository-hosting.md`.
+- The wiki now contains a parent project `hampter` and its subproject `tiaga_face_v0.1`.
 
 ## Next
 
 - Continue using the wiki as the persistent operating context for future work.
 - Add new knowledge pages as decisions, bugs, or conventions accumulate.
 - Revisit repository visibility later if the wiki starts storing private operating data.
+- Keep the project/subproject hierarchy explicit as more HAMPTER work is added.
 
 ## Decisions
 
