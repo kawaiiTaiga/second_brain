@@ -10,6 +10,12 @@
 - Repository URL: <https://github.com/kawaiiTaiga/second_brain>
 - Clone URL: `https://github.com/kawaiiTaiga/second_brain.git`
 
+## Local Locations
+
+- Local clone path: `C:\Users\dukes\Downloads\새 폴더 (3)\second_brain`
+- Live wiki path inside the clone: `C:\Users\dukes\Downloads\새 폴더 (3)\second_brain\wiki`
+- Convenience junction from the face workspace: `C:\Users\dukes\Downloads\새 폴더 (3)\wiki`
+
 ## Publication Notes
 
 - Local git history was initialized on `2026-04-13`.

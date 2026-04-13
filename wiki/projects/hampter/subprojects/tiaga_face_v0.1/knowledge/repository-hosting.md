@@ -3,6 +3,7 @@
 ## Workspace
 
 - Local workspace path: `C:\Users\dukes\Downloads\새 폴더 (3)`
+- Local wiki access path from the workspace: `C:\Users\dukes\Downloads\새 폴더 (3)\wiki`
 
 ## Runtime
 
@@ -18,3 +19,4 @@
   - Clone URL: `https://github.com/kawaiiTaiga/second_brain.git`
   - Remote name: `origin`
   - Branch: `main`
+  - Local clone path: `C:\Users\dukes\Downloads\새 폴더 (3)\second_brain`
