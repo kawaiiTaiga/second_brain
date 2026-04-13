@@ -1,22 +1,40 @@
-# tiaga_face_v0.1 Repository And Runtime Locations
+# tiaga_face_v0.1 Repository And Runtime Hosting
 
-## Workspace
+## Source Repository
 
-- Local workspace path: `C:\Users\dukes\Downloads\새 폴더 (3)`
-- Local wiki access path from the workspace: `C:\Users\dukes\Downloads\새 폴더 (3)\wiki`
+- Owner: `kawaiiTaiga`
+- Repository: `taiga-face`
+- Remote name: `origin`
+- Default branch: `main`
+- Repository URL: <https://github.com/kawaiiTaiga/taiga-face>
+- Clone URL: `https://github.com/kawaiiTaiga/taiga-face.git`
 
-## Runtime
+## Canonical Source Locations
 
-- Local app URL: `http://127.0.0.1:4173`
-- Start command: `npm start`
-- Alternate start command: `node server.mjs`
+- Repository root contains the active browser runtime source.
+- Key source files are rooted at:
+  - `/app.js`
+  - `/dsl-runtime.js`
+  - `/renderer.js`
+  - `/index.html`
+  - `/styles.css`
+  - `/server.mjs`
+  - `/analysis/`
+  - `/artifacts/`
+  - `/FACE_COORDINATE_ANALYSIS.md`
+  - `/FACE_FORMULA_PROMPT_KO.md`
 
-## Git State
+## Documentation Repository
 
-- This subproject workspace is not currently tracked as its own published git repository inside this wiki.
-- The durable wiki that documents it is published in the second-brain repository:
-  - Repository URL: `https://github.com/kawaiiTaiga/second_brain`
+- Durable wiki pages for this subproject live in the second-brain repository:
+  - Repository URL: <https://github.com/kawaiiTaiga/second_brain>
   - Clone URL: `https://github.com/kawaiiTaiga/second_brain.git`
   - Remote name: `origin`
   - Branch: `main`
-  - Local clone path: `C:\Users\dukes\Downloads\새 폴더 (3)\second_brain`
+  - Wiki path inside that repository: `wiki/projects/hampter/subprojects/tiaga_face_v0.1/`
+
+## Development Runtime
+
+- Start command: `npm start`
+- Alternate start command: `node server.mjs`
+- Default development port: `4173`

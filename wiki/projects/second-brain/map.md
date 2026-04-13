@@ -33,17 +33,17 @@
 
 ## File Roles
 
-- `LLM-Wiki.md` - Concept and operating model for the wiki pattern.
-- `README.md` - Short repository introduction and navigation.
-- `.git/` - Local repository metadata and commit history.
-- `wiki/index.md` - Catalog of wiki pages.
-- `wiki/log.md` - Append-only activity log.
-- `wiki/projects/second-brain/status.md` - Current project state and next actions.
-- `wiki/projects/second-brain/map.md` - Structural reference for this repository.
+- `LLM-Wiki.md` - concept and operating model for the wiki pattern.
+- `README.md` - short repository introduction and navigation.
+- `.git/` - repository metadata and commit history.
+- `wiki/index.md` - catalog of wiki pages.
+- `wiki/log.md` - append-only activity log.
+- `wiki/projects/second-brain/status.md` - current project state and next actions.
+- `wiki/projects/second-brain/map.md` - structural reference for this repository.
 - `wiki/projects/second-brain/knowledge/repository-hosting.md` - GitHub hosting and publication details.
-- `wiki/projects/hampter/status.md` - Parent-level HAMPTER context.
-- `wiki/projects/hampter/subprojects/tiaga_face_v0.1/status.md` - Subproject state for the face renderer.
-- `wiki/projects/hampter/subprojects/tiaga_face_v0.1/map.md` - Exact source layout and local runtime locations for the face renderer.
+- `wiki/projects/hampter/status.md` - parent-level HAMPTER context.
+- `wiki/projects/hampter/subprojects/tiaga_face_v0.1/status.md` - subproject state for the face renderer.
+- `wiki/projects/hampter/subprojects/tiaga_face_v0.1/map.md` - source layout, repository location, and development runtime notes for the face renderer.
 
 ## Notes
 

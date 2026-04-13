@@ -20,7 +20,11 @@
 ## [2026-04-13] hampter | Added tiaga_face_v0.1 as subproject
 - Added `hampter` as a parent project in the wiki hierarchy.
 - Filed `tiaga_face_v0.1` under `projects/hampter/subprojects/tiaga_face_v0.1/`.
-- Recorded the face renderer's design, prompts, map, workflow, smile-shape findings, and exact local workspace locations.
+- Recorded the face renderer's design, prompts, map, workflow, smile-shape findings, and repository metadata.
+
+## [2026-04-13] hampter | Switched tiaga_face_v0.1 location references to git-first
+- Rewrote hosting references to use GitHub repository URLs, clone URLs, remote names, and tracked branches as the canonical locations.
+- Updated `tiaga_face_v0.1` documentation to point at `https://github.com/kawaiiTaiga/taiga-face` instead of local filesystem paths.
 
 ## [2026-04-13] hampter_lab_branding | Added website project hierarchy
 - Added parent project pages for `hampter_lab_branding`.

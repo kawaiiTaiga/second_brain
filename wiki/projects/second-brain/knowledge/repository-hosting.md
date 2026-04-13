@@ -10,15 +10,15 @@
 - Repository URL: <https://github.com/kawaiiTaiga/second_brain>
 - Clone URL: `https://github.com/kawaiiTaiga/second_brain.git`
 
-## Local Locations
+## Canonical Wiki Location
 
-- Local clone path: `C:\Users\dukes\Downloads\새 폴더 (3)\second_brain`
-- Live wiki path inside the clone: `C:\Users\dukes\Downloads\새 폴더 (3)\second_brain\wiki`
-- Convenience junction from the face workspace: `C:\Users\dukes\Downloads\새 폴더 (3)\wiki`
+- Canonical repository root: <https://github.com/kawaiiTaiga/second_brain>
+- Canonical wiki root inside the repository: `wiki/`
+- Canonical tracked reference for updates: `origin/main`
 
 ## Publication Notes
 
-- Local git history was initialized on `2026-04-13`.
+- Git history was initialized on `2026-04-13`.
 - The repository was published publicly on `2026-04-13`.
 - The first push established `main` to track `origin/main`.
 

@@ -31,7 +31,7 @@ This index is the entry point for finding relevant context inside the wiki.
 #### hampter / subprojects / tiaga_face_v0.1
 
 - [projects/hampter/subprojects/tiaga_face_v0.1/status.md](./projects/hampter/subprojects/tiaga_face_v0.1/status.md) - Current state and decisions for the face-renderer subproject.
-- [projects/hampter/subprojects/tiaga_face_v0.1/map.md](./projects/hampter/subprojects/tiaga_face_v0.1/map.md) - Exact file locations, runtime entry points, and analysis tooling.
+- [projects/hampter/subprojects/tiaga_face_v0.1/map.md](./projects/hampter/subprojects/tiaga_face_v0.1/map.md) - Repository-root file layout, runtime entry points, and analysis tooling.
 - [projects/hampter/subprojects/tiaga_face_v0.1/skills/README.md](./projects/hampter/subprojects/tiaga_face_v0.1/skills/README.md) - Subproject-specific maintenance entry point.
 - [projects/hampter/subprojects/tiaga_face_v0.1/skills/agent-workflow.md](./projects/hampter/subprojects/tiaga_face_v0.1/skills/agent-workflow.md) - Required workflow for geometry and prompt work.
 - [projects/hampter/subprojects/tiaga_face_v0.1/knowledge/README.md](./projects/hampter/subprojects/tiaga_face_v0.1/knowledge/README.md) - Subproject knowledge hub.
@@ -39,7 +39,7 @@ This index is the entry point for finding relevant context inside the wiki.
 - [projects/hampter/subprojects/tiaga_face_v0.1/knowledge/prompts.md](./projects/hampter/subprojects/tiaga_face_v0.1/knowledge/prompts.md) - Prompt assets and usage rules.
 - [projects/hampter/subprojects/tiaga_face_v0.1/knowledge/smile-shape.md](./projects/hampter/subprojects/tiaga_face_v0.1/knowledge/smile-shape.md) - Smile geometry and renderer regime notes.
 - [projects/hampter/subprojects/tiaga_face_v0.1/knowledge/known-issues.md](./projects/hampter/subprojects/tiaga_face_v0.1/knowledge/known-issues.md) - Durable quirks and caveats.
-- [projects/hampter/subprojects/tiaga_face_v0.1/knowledge/repository-hosting.md](./projects/hampter/subprojects/tiaga_face_v0.1/knowledge/repository-hosting.md) - Exact local workspace and runtime locations for this subproject.
+- [projects/hampter/subprojects/tiaga_face_v0.1/knowledge/repository-hosting.md](./projects/hampter/subprojects/tiaga_face_v0.1/knowledge/repository-hosting.md) - Canonical GitHub repository, branch, and runtime metadata for this subproject.
 
 ### hampter_lab_branding
 

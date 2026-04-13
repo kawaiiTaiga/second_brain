@@ -3,11 +3,11 @@
 Parent project:
 - `hampter`
 
-Exact local workspace:
-- `C:\Users\dukes\Downloads\새 폴더 (3)`
+Source repository:
+- <https://github.com/kawaiiTaiga/taiga-face>
 
-Local runtime URL:
-- `http://127.0.0.1:4173`
+Tracked branch:
+- `origin/main`
 
 ## Repository Layout
 
@@ -17,8 +17,6 @@ Local runtime URL:
     capture-smile-sweep.mjs
     compact-axis-analysis.mjs
   artifacts/
-    ...
-  wiki/
     ...
   app.js
   dsl-runtime.js
@@ -41,14 +39,14 @@ Local runtime URL:
 - `styles.css` - UI styling.
 - `server.mjs` - minimal static file server, default port `4173`.
 
-## Analysis and Artifacts
+## Analysis And Artifacts
 
 - `analysis/capture-smile-sweep.mjs` - captures smile sweep images through the live app using Playwright.
 - `analysis/compact-axis-analysis.mjs` - measures compact-coordinate effects and writes analytical summaries.
 - `artifacts/smile-sweep-strip.png` - current smile sweep overview image.
 - `FACE_COORDINATE_ANALYSIS.md` - generated analysis summary for the compact coordinate system.
 
-## Prompt and Documentation Assets
+## Prompt And Documentation Assets
 
 - `FACE_FORMULA_PROMPT_KO.md` - current formula-generation prompt for external models.
 - `transient-dsl-prompt.md` - older transient-oriented prompt.
@@ -57,12 +55,12 @@ Local runtime URL:
 ## Related Wiki Pages
 
 - `wiki/projects/hampter/status.md` - parent project summary.
-- `wiki/projects/hampter/subprojects/tiaga_face_v0.1/knowledge/repository-hosting.md` - exact local path and runtime location.
+- `wiki/projects/hampter/subprojects/tiaga_face_v0.1/knowledge/repository-hosting.md` - canonical repository and runtime metadata.
 
 ## Execution Notes
 
 - Start the app with `npm start` or `node server.mjs`.
-- Default URL is `http://127.0.0.1:4173`.
+- Default development port is `4173`.
 - If `EADDRINUSE` appears, the server is usually already running on `4173`.
 
 ## Search Hints

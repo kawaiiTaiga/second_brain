@@ -22,5 +22,5 @@ Treat the wiki pages and the newer prompt/analysis files as the safer references
 If `node server.mjs` returns `EADDRINUSE`, the usual cause is that the server is already running on port `4173`.
 
 In that case:
-- open `http://127.0.0.1:4173`,
+- open the app already running on port `4173`,
 - or stop the existing process and restart.
