@@ -36,3 +36,18 @@ This index is the entry point for finding relevant context inside the wiki.
 - [projects/hampter/subprojects/tiaga_face_v0.1/knowledge/smile-shape.md](./projects/hampter/subprojects/tiaga_face_v0.1/knowledge/smile-shape.md) - Smile geometry and renderer regime notes.
 - [projects/hampter/subprojects/tiaga_face_v0.1/knowledge/known-issues.md](./projects/hampter/subprojects/tiaga_face_v0.1/knowledge/known-issues.md) - Durable quirks and caveats.
 - [projects/hampter/subprojects/tiaga_face_v0.1/knowledge/repository-hosting.md](./projects/hampter/subprojects/tiaga_face_v0.1/knowledge/repository-hosting.md) - Exact local workspace and runtime locations for this subproject.
+
+### hampter_lab_branding
+
+- [projects/hampter_lab_branding/status.md](./projects/hampter_lab_branding/status.md) - Parent project status for HAMPTER LAB brand work.
+- [projects/hampter_lab_branding/map.md](./projects/hampter_lab_branding/map.md) - Parent project hierarchy and subproject layout.
+- [projects/hampter_lab_branding/skills/README.md](./projects/hampter_lab_branding/skills/README.md) - Parent-level brand maintenance workflows.
+- [projects/hampter_lab_branding/knowledge/README.md](./projects/hampter_lab_branding/knowledge/README.md) - Durable brand-level knowledge.
+
+### hampter_lab_branding / website
+
+- [projects/hampter_lab_branding/subprojects/website/status.md](./projects/hampter_lab_branding/subprojects/website/status.md) - Current state of the live Astro website.
+- [projects/hampter_lab_branding/subprojects/website/map.md](./projects/hampter_lab_branding/subprojects/website/map.md) - Key files, runtime modules, and site layout.
+- [projects/hampter_lab_branding/subprojects/website/skills/README.md](./projects/hampter_lab_branding/subprojects/website/skills/README.md) - Repeatable website operating rules and referenced skills.
+- [projects/hampter_lab_branding/subprojects/website/knowledge/README.md](./projects/hampter_lab_branding/subprojects/website/knowledge/README.md) - Durable website facts and operational notes.
+- [projects/hampter_lab_branding/subprojects/website/knowledge/repository-hosting.md](./projects/hampter_lab_branding/subprojects/website/knowledge/repository-hosting.md) - GitHub and Vercel hosting details for the site.

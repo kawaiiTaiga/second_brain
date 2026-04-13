@@ -12,3 +12,8 @@
 - Added `hampter` as a parent project in the wiki hierarchy.
 - Filed `tiaga_face_v0.1` under `projects/hampter/subprojects/tiaga_face_v0.1/`.
 - Recorded the face renderer's design, prompts, map, workflow, smile-shape findings, and exact local workspace locations.
+
+## [2026-04-13] hampter_lab_branding | Added website project hierarchy
+- Added parent project pages for `hampter_lab_branding`.
+- Added `website` as a subproject with status, map, skills, and hosting knowledge pages.
+- Recorded the live website repository, Vercel deployment target, and the TAIGA face runtime integration approach.
