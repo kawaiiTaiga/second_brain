@@ -15,7 +15,8 @@ Use this folder for repeatable workflows that govern how the HAMPTER LAB website
 - Pull from `origin/main` before editing when the checkout is already published and clean.
 - Validate meaningful site changes with `npm run build`.
 - Push ready changes to `origin/main`; Vercel is connected and should redeploy from GitHub.
-- If GitHub and production disagree, check whether Vercel actually deployed the latest commit or whether a manual production deploy is needed.
+- Do not run a manual production deploy after every push.
+- If GitHub and production disagree, check whether Vercel actually deployed the latest commit; use a manual production deploy only as an exception path.
 - Keep the visual tone cold, clean, and lab-like unless the user explicitly changes the direction.
 - Do not reintroduce mock `MAKES` or mock `DEV LOG` content.
 - If the user says "website" or "showcase", default to changing `hampter-lab` only.
@@ -31,6 +32,7 @@ Use this folder for repeatable workflows that govern how the HAMPTER LAB website
 
 - Keep interactive runtime pages inside the main site shell when the user wants them to feel like part of HAMPTER LAB.
 - Reuse the existing TAIGA face runtime pattern for future browser-based runtime pages when possible.
+- Current TAIGA runtime route is `/makes/taiga_face/`.
 
 ## Wiki Filing Rule
 
