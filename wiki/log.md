@@ -40,6 +40,10 @@
 - Updated the website wiki to reflect the current TAIGA runtime route `/makes/taiga_face/`.
 - Recorded that normal website deployment should be `git push` to `origin/main`, with manual Vercel production deploys used only as an exception path.
 
+## [2026-04-14] hampter_lab_branding | Flattened website wiki path
+- Moved the website pages from `projects/hampter_lab_branding/subprojects/website/` to `projects/hampter_lab_branding/website/`.
+- Removed `subprojects` wording from the branding wiki pages so this project uses a flatter `branding/website` structure.
+
 ## [2026-04-14] hampter_lab_branding | Added showcase-only workflow boundary
 - Added a dedicated workflow page that separates `hampter-lab` website changes from project-repo changes.
 - Recorded that the public site is the showcase surface while repos like `taiga-face` remain separate experiment sources.

@@ -44,22 +44,22 @@ This index is the entry point for finding relevant context inside the wiki.
 ### hampter_lab_branding
 
 - [projects/hampter_lab_branding/status.md](./projects/hampter_lab_branding/status.md) - Parent project status for HAMPTER LAB brand work.
-- [projects/hampter_lab_branding/map.md](./projects/hampter_lab_branding/map.md) - Parent project hierarchy and subproject layout.
+- [projects/hampter_lab_branding/map.md](./projects/hampter_lab_branding/map.md) - Parent project hierarchy and website layout.
 - [projects/hampter_lab_branding/skills/README.md](./projects/hampter_lab_branding/skills/README.md) - Parent-level brand maintenance workflows.
 - [projects/hampter_lab_branding/knowledge/README.md](./projects/hampter_lab_branding/knowledge/README.md) - Durable brand-level knowledge.
 - [projects/hampter_lab_branding/knowledge/brand-direction.md](./projects/hampter_lab_branding/knowledge/brand-direction.md) - Active brand tone and surface strategy.
 
 ### hampter_lab_branding / website
 
-- [projects/hampter_lab_branding/subprojects/website/status.md](./projects/hampter_lab_branding/subprojects/website/status.md) - Current state of the live Astro website.
-- [projects/hampter_lab_branding/subprojects/website/map.md](./projects/hampter_lab_branding/subprojects/website/map.md) - Key files, runtime modules, and site layout.
-- [projects/hampter_lab_branding/subprojects/website/skills/README.md](./projects/hampter_lab_branding/subprojects/website/skills/README.md) - Repeatable website operating rules and referenced skills.
-- [projects/hampter_lab_branding/subprojects/website/skills/showcase-only-workflow.md](./projects/hampter_lab_branding/subprojects/website/skills/showcase-only-workflow.md) - Boundary rule for website-only changes versus project-repo changes.
-- [projects/hampter_lab_branding/subprojects/website/knowledge/README.md](./projects/hampter_lab_branding/subprojects/website/knowledge/README.md) - Durable website facts and operational notes.
-- [projects/hampter_lab_branding/subprojects/website/knowledge/repository-hosting.md](./projects/hampter_lab_branding/subprojects/website/knowledge/repository-hosting.md) - GitHub and Vercel hosting details for the site.
-- [projects/hampter_lab_branding/subprojects/website/knowledge/content-workflow.md](./projects/hampter_lab_branding/subprojects/website/knowledge/content-workflow.md) - Lab note and `MAKES` publishing rules.
-- [projects/hampter_lab_branding/subprojects/website/knowledge/routes-and-surfaces.md](./projects/hampter_lab_branding/subprojects/website/knowledge/routes-and-surfaces.md) - Current public routes, removed routes, and homepage surface rules.
-- [projects/hampter_lab_branding/subprojects/website/knowledge/taiga-face-runtime.md](./projects/hampter_lab_branding/subprojects/website/knowledge/taiga-face-runtime.md) - Integration notes for the TAIGA face runtime.
+- [projects/hampter_lab_branding/website/status.md](./projects/hampter_lab_branding/website/status.md) - Current state of the live Astro website.
+- [projects/hampter_lab_branding/website/map.md](./projects/hampter_lab_branding/website/map.md) - Key files, runtime modules, and site layout.
+- [projects/hampter_lab_branding/website/skills/README.md](./projects/hampter_lab_branding/website/skills/README.md) - Repeatable website operating rules and referenced skills.
+- [projects/hampter_lab_branding/website/skills/showcase-only-workflow.md](./projects/hampter_lab_branding/website/skills/showcase-only-workflow.md) - Boundary rule for website-only changes versus project-repo changes.
+- [projects/hampter_lab_branding/website/knowledge/README.md](./projects/hampter_lab_branding/website/knowledge/README.md) - Durable website facts and operational notes.
+- [projects/hampter_lab_branding/website/knowledge/repository-hosting.md](./projects/hampter_lab_branding/website/knowledge/repository-hosting.md) - GitHub and Vercel hosting details for the site.
+- [projects/hampter_lab_branding/website/knowledge/content-workflow.md](./projects/hampter_lab_branding/website/knowledge/content-workflow.md) - Lab note and `MAKES` publishing rules.
+- [projects/hampter_lab_branding/website/knowledge/routes-and-surfaces.md](./projects/hampter_lab_branding/website/knowledge/routes-and-surfaces.md) - Current public routes, removed routes, and homepage surface rules.
+- [projects/hampter_lab_branding/website/knowledge/taiga-face-runtime.md](./projects/hampter_lab_branding/website/knowledge/taiga-face-runtime.md) - Integration notes for the TAIGA face runtime.
 
 ### rf
 

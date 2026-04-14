@@ -4,11 +4,11 @@
 
 - The TAIGA face runtime is integrated directly into the main Astro site
 - It is not treated as a separate public website
-- The runtime is served at `/taiga/`
+- The runtime is served at `/makes/taiga_face/`
 
 ## Important Files
 
-- `C:\Users\dukes\Downloads\hampter_lab\src\pages\taiga.astro`
+- `C:\Users\dukes\Downloads\hampter_lab\src\pages\makes\taiga_face.astro`
 - `C:\Users\dukes\Downloads\hampter_lab\src\components\TaigaDemo.astro`
 - `C:\Users\dukes\Downloads\hampter_lab\src\scripts\taiga-face\app.js`
 - `C:\Users\dukes\Downloads\hampter_lab\src\scripts\taiga-face\dsl-runtime.js`

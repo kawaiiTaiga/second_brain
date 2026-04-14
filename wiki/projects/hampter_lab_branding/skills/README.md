@@ -5,5 +5,5 @@ Use this folder for parent-level workflows that affect the overall HAMPTER LAB b
 Initial rules:
 
 - Keep brand-level decisions and direction changes in `status.md`.
-- Keep website-specific procedures in `subprojects/website/skills/README.md`.
-- When a future subproject appears, add it under `subprojects/` and register it in `wiki/index.md`.
+- Keep website-specific procedures in `website/skills/README.md`.
+- When a future brand surface appears, add it directly under `hampter_lab_branding/` and register it in `wiki/index.md`.

@@ -16,7 +16,7 @@
 - `MAKES` should only surface real interactive work
 - Mock cards and speculative project entries should not be reintroduced
 - Current homepage setup shows one real item:
-  - `TAIGA Face Runtime` linking to `/taiga/`
+  - `TAIGA Face Runtime` linking to `/makes/taiga_face/`
 
 ## Publishing Rule
 

@@ -3,7 +3,7 @@
 ## Current Public Routes
 
 - `/` - Main HAMPTER LAB landing page
-- `/taiga/` - Integrated TAIGA face runtime page
+- `/makes/taiga_face/` - Integrated TAIGA face runtime page
 - `/lab/` - Dev log archive landing page, currently empty-state only
 - `/about/hamseok/` - Founder profile page
 - `/about/gyeongmin/` - Founder profile page
@@ -12,6 +12,7 @@
 
 - Old mock `makes` detail routes were removed
 - Old mock `lab` detail routes were removed
+- `/taiga/` should now return `404`
 - `/makes/taiga/` should now return `404`
 
 ## Homepage Surface Rules

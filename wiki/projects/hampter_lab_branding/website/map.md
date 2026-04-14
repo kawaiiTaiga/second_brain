@@ -13,7 +13,8 @@ C:\Users\dukes\Downloads\hampter_lab
       BaseLayout.astro
     pages/
       index.astro
-      taiga.astro
+      makes/
+        taiga_face.astro
       lab/
         index.astro
     scripts/
@@ -33,7 +34,7 @@ C:\Users\dukes\Downloads\hampter_lab
 ## File Roles
 
 - `src/pages/index.astro` - Homepage with About, Makes, and Dev Log sections.
-- `src/pages/taiga.astro` - TAIGA face runtime page entry.
+- `src/pages/makes/taiga_face.astro` - TAIGA face runtime page entry.
 - `src/pages/lab/index.astro` - Archive landing page, currently empty-state only.
 - `src/components/TaigaDemo.astro` - Site-integrated TAIGA face console UI.
 - `src/scripts/taiga-face/app.js` - Browser bootstrap that wires the page UI to the runtime.

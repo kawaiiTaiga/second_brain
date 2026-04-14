@@ -60,7 +60,7 @@ That creates exactly the confusion this page is meant to prevent.
 
 ## Practical Example
 
-- Adding a TAIGA card, changing `/taiga/` on the public site, adjusting homepage layout:
+- Adding a TAIGA card, changing `/makes/taiga_face/` on the public site, adjusting homepage layout:
   - `hampter-lab`
 - Changing the standalone TAIGA_FACE app's prompt block, internal buttons, or prototype controls:
   - `taiga-face`
