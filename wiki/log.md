@@ -36,6 +36,11 @@
 - Added website knowledge pages for content workflow, routes and surfaces, and TAIGA face runtime integration.
 - Expanded the website skill page to include wiki usage and deployment troubleshooting rules.
 
+## [2026-04-14] hampter_lab_branding | Added showcase-only workflow boundary
+- Added a dedicated workflow page that separates `hampter-lab` website changes from project-repo changes.
+- Recorded that the public site is the showcase surface while repos like `taiga-face` remain separate experiment sources.
+- Updated website status, skills, index, and repository-hosting notes to reduce cross-repo confusion.
+
 ## [2026-04-13] rf | Added RF parent project and startopolgy10 subproject
 - Added `rf` as the parent wiki project for wireless topology and middleware work.
 - Added `startopolgy10` under `projects/rf/subprojects/` to capture the Fleet AirLink star-topology implementation.

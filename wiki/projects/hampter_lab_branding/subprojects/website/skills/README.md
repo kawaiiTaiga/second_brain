@@ -7,6 +7,7 @@ Use this folder for repeatable workflows that govern how the HAMPTER LAB website
 - Site maintenance skill source: `C:\Users\dukes\.codex\skills\hampter-site-maintainer\SKILL.md`
 - Post publishing skill source: `C:\Users\dukes\.codex\skills\hampter-post-publisher\SKILL.md`
 - Wiki maintenance skill source: `C:\Users\dukes\.codex\skills\llm-wiki\SKILL.md`
+- Showcase boundary rule: `showcase-only-workflow.md`
 
 ## Working Rules
 
@@ -17,6 +18,8 @@ Use this folder for repeatable workflows that govern how the HAMPTER LAB website
 - If GitHub and production disagree, check whether Vercel actually deployed the latest commit or whether a manual production deploy is needed.
 - Keep the visual tone cold, clean, and lab-like unless the user explicitly changes the direction.
 - Do not reintroduce mock `MAKES` or mock `DEV LOG` content.
+- If the user says "website" or "showcase", default to changing `hampter-lab` only.
+- Do not report a `taiga-face` project-repo change as if it updated the public HAMPTER LAB site.
 
 ## Content Workflow
 

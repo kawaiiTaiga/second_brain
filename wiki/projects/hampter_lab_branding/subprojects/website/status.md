@@ -14,6 +14,7 @@ The `website` subproject is the live Astro-based HAMPTER LAB site. It functions 
 - `DEV LOG` and `/lab/` are empty-state placeholders until real posts are published
 - Mock detail routes for old `makes` and `lab` entries were removed
 - Related Codex skills are now filed in the wiki as part of this subproject context
+- The site should be operated as a showcase surface separate from project-experiment repos
 
 ## Next
 
@@ -26,3 +27,4 @@ The `website` subproject is the live Astro-based HAMPTER LAB site. It functions 
 - Keep TAIGA face integrated under the main site rather than as a separate standalone web deployment.
 - Use the same HAMPTER LAB shell and styling system for runtime pages.
 - Prefer simple empty states over fake project or blog content.
+- Treat `hampter-lab` as the website target and project repos as separate experiment targets unless the user explicitly requests both.

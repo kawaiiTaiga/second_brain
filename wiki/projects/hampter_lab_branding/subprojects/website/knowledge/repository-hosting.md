@@ -22,3 +22,5 @@
 - The website is the current public HAMPTER LAB brand surface.
 - The TAIGA face runtime lives inside this same site at `/taiga/` instead of using a separate site deployment.
 - If deployment and live content disagree, verify both the GitHub push and the Vercel production alias state.
+- `hampter-lab` is the showcase repository, not the source-of-truth repository for every underlying project experiment.
+- Project repos such as `https://github.com/kawaiiTaiga/taiga-face` may exist separately and should not be treated as automatic website updates.
