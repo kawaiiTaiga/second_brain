@@ -88,5 +88,5 @@ Primary spec and planning docs:
 ## Related Wiki Pages
 
 - `wiki/projects/rf/knowledge/router-vs-middleware.md` - parent-level boundary between Linux networking and middleware.
-- `wiki/projects/rf/subprojects/startopolgy10/knowledge/testing-and-validation.md` - what has actually been validated.
-- `wiki/projects/rf/subprojects/startopolgy10/knowledge/networking-and-node-onboarding.md` - how to move from loopback demo to real nodes.
+- `wiki/projects/rf/startopolgy10/knowledge/testing-and-validation.md` - what has actually been validated.
+- `wiki/projects/rf/startopolgy10/knowledge/networking-and-node-onboarding.md` - how to move from loopback demo to real nodes.

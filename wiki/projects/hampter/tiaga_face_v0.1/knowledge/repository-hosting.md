@@ -26,12 +26,12 @@
 
 ## Documentation Repository
 
-- Durable wiki pages for this subproject live in the second-brain repository:
+- Durable wiki pages for this project page live in the second-brain repository:
   - Repository URL: <https://github.com/kawaiiTaiga/second_brain>
   - Clone URL: `https://github.com/kawaiiTaiga/second_brain.git`
   - Remote name: `origin`
   - Branch: `main`
-  - Wiki path inside that repository: `wiki/projects/hampter/subprojects/tiaga_face_v0.1/`
+  - Wiki path inside that repository: `wiki/projects/hampter/tiaga_face_v0.1/`
 
 ## Development Runtime
 

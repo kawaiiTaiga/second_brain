@@ -10,19 +10,18 @@ wiki/
       map.md
       skills/
       knowledge/
-      subprojects/
-        tiaga_face_v0.1/
-          status.md
-          map.md
-          skills/
-          knowledge/
+      tiaga_face_v0.1/
+        status.md
+        map.md
+        skills/
+        knowledge/
 ```
 
 ## Role Of This Parent Project
 
 - Parent-level HAMPTER context belongs here.
-- Subproject-specific implementation details belong under `subprojects/<name>/`.
-- `tiaga_face_v0.1` is currently the only documented HAMPTER subproject in this wiki.
+- Project-specific implementation details belong under direct child folders such as `tiaga_face_v0.1/`.
+- `tiaga_face_v0.1` is currently the only documented child project in this wiki.
 
 ## Notes
 

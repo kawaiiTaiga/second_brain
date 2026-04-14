@@ -9,17 +9,17 @@ Use this page when a new session starts and the agent should be able to work imm
 
 - Shared wiki repo: `kawaiiTaiga/second_brain`
 - HTTPS clone URL: `https://github.com/kawaiiTaiga/second_brain.git`
-- Subproject path inside the wiki: `wiki/projects/rf/subprojects/startopolgy10/`
-- Detailed reference: `projects/rf/subprojects/startopolgy10/knowledge/repository-access.md`
+- Project path inside the wiki: `wiki/projects/rf/startopolgy10/`
+- Detailed reference: `projects/rf/startopolgy10/knowledge/repository-access.md`
 
 ## Read Order
 
 Read these pages in order:
 
-1. `projects/rf/subprojects/startopolgy10/status.md`
-2. `projects/rf/subprojects/startopolgy10/map.md`
-3. `projects/rf/subprojects/startopolgy10/knowledge/runtime-startup.md`
-4. `projects/rf/subprojects/startopolgy10/knowledge/known-gaps.md`
+1. `projects/rf/startopolgy10/status.md`
+2. `projects/rf/startopolgy10/map.md`
+3. `projects/rf/startopolgy10/knowledge/runtime-startup.md`
+4. `projects/rf/startopolgy10/knowledge/known-gaps.md`
 5. task-specific knowledge pages only if needed
 
 ## Default Assumptions

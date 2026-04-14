@@ -55,7 +55,7 @@ Tracked branch:
 ## Related Wiki Pages
 
 - `wiki/projects/hampter/status.md` - parent project summary.
-- `wiki/projects/hampter/subprojects/tiaga_face_v0.1/knowledge/repository-hosting.md` - canonical repository and runtime metadata.
+- `wiki/projects/hampter/tiaga_face_v0.1/knowledge/repository-hosting.md` - canonical repository and runtime metadata.
 
 ## Execution Notes
 

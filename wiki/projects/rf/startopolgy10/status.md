@@ -11,10 +11,10 @@ Parent project:
 
 If a new session starts and the agent needs to become productive quickly, read these in order:
 
-1. `projects/rf/subprojects/startopolgy10/skills/session-start.md`
-2. `projects/rf/subprojects/startopolgy10/map.md`
-3. `projects/rf/subprojects/startopolgy10/knowledge/runtime-startup.md`
-4. `projects/rf/subprojects/startopolgy10/knowledge/known-gaps.md`
+1. `projects/rf/startopolgy10/skills/session-start.md`
+2. `projects/rf/startopolgy10/map.md`
+3. `projects/rf/startopolgy10/knowledge/runtime-startup.md`
+4. `projects/rf/startopolgy10/knowledge/known-gaps.md`
 
 Use the local demo and test commands from those pages instead of assuming any process is already running.
 

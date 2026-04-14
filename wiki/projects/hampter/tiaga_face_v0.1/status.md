@@ -5,7 +5,7 @@ Parent project:
 
 ## Summary
 
-`tiaga_face_v0.1` is a HAMPTER subproject: a vanilla HTML + WebGL2 robot-eye face renderer driven by a formula DSL. The runtime continuously evaluates formulas over time, blends temporary behaviors over an always-running idle face, and renders a stylized black-and-white EVE-like eye face.
+`tiaga_face_v0.1` is a HAMPTER child project: a vanilla HTML + WebGL2 robot-eye face renderer driven by a formula DSL. The runtime continuously evaluates formulas over time, blends temporary behaviors over an always-running idle face, and renders a stylized black-and-white EVE-like eye face.
 
 ## Current State
 

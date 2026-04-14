@@ -17,9 +17,9 @@
 - Added a project-specific maintenance workflow for the `second_brain` repository.
 - Registered the new skill pages in `wiki/index.md`.
 
-## [2026-04-13] hampter | Added tiaga_face_v0.1 as subproject
+## [2026-04-13] hampter | Added tiaga_face_v0.1 project page
 - Added `hampter` as a parent project in the wiki hierarchy.
-- Filed `tiaga_face_v0.1` under `projects/hampter/subprojects/tiaga_face_v0.1/`.
+- Filed `tiaga_face_v0.1` under `projects/hampter/tiaga_face_v0.1/`.
 - Recorded the face renderer's design, prompts, map, workflow, smile-shape findings, and repository metadata.
 
 ## [2026-04-13] hampter | Switched tiaga_face_v0.1 location references to git-first
@@ -28,7 +28,7 @@
 
 ## [2026-04-13] hampter_lab_branding | Added website project hierarchy
 - Added parent project pages for `hampter_lab_branding`.
-- Added `website` as a subproject with status, map, skills, and hosting knowledge pages.
+- Added `website` as a child project page with status, map, skills, and hosting knowledge pages.
 - Recorded the live website repository, Vercel deployment target, and the TAIGA face runtime integration approach.
 
 ## [2026-04-13] hampter_lab_branding | Expanded website operating knowledge
@@ -41,18 +41,23 @@
 - Recorded that normal website deployment should be `git push` to `origin/main`, with manual Vercel production deploys used only as an exception path.
 
 ## [2026-04-14] hampter_lab_branding | Flattened website wiki path
-- Moved the website pages from `projects/hampter_lab_branding/subprojects/website/` to `projects/hampter_lab_branding/website/`.
-- Removed `subprojects` wording from the branding wiki pages so this project uses a flatter `branding/website` structure.
+- Moved the website pages into `projects/hampter_lab_branding/website/`.
+- Removed the extra nested directory so this project uses a flatter `branding/website` structure.
 
 ## [2026-04-14] hampter_lab_branding | Added showcase-only workflow boundary
 - Added a dedicated workflow page that separates `hampter-lab` website changes from project-repo changes.
 - Recorded that the public site is the showcase surface while repos like `taiga-face` remain separate experiment sources.
 - Updated website status, skills, index, and repository-hosting notes to reduce cross-repo confusion.
 
-## [2026-04-13] rf | Added RF parent project and startopolgy10 subproject
+## [2026-04-13] rf | Added RF parent project and startopolgy10 project page
 - Added `rf` as the parent wiki project for wireless topology and middleware work.
-- Added `startopolgy10` under `projects/rf/subprojects/` to capture the Fleet AirLink star-topology implementation.
+- Added `startopolgy10` under `projects/rf/` to capture the Fleet AirLink star-topology implementation.
 - Recorded implementation history, test results, hwsim/kernel notes, networking/router guidance, GUI/video routing behavior, current known gaps, and RF power guidance.
+
+## [2026-04-14] wiki | Flattened remaining nested project directories
+- Moved `projects/hampter/tiaga_face_v0.1/` into the parent project's top level.
+- Moved `projects/rf/startopolgy10/` into the parent project's top level.
+- Updated wiki references to stop using an extra nested container path.
 
 ## [2026-04-13] rf | Added new-session quickstart pages for startopolgy10
 - Added `skills/session-start.md` as the first-read handoff page for a fresh session.

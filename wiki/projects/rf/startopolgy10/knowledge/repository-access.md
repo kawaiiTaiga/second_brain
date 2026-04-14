@@ -2,7 +2,7 @@
 
 ## Purpose
 
-Use this page when a new operator or agent needs the repository name, clone URL, and the exact wiki paths for this subproject.
+Use this page when a new operator or agent needs the repository name, clone URL, and the exact wiki paths for this project page.
 
 ## Canonical Wiki Repository
 
@@ -14,14 +14,14 @@ Use this page when a new operator or agent needs the repository name, clone URL,
 
 Start here after cloning the wiki:
 
-1. `wiki/projects/rf/subprojects/startopolgy10/skills/session-start.md`
-2. `wiki/projects/rf/subprojects/startopolgy10/status.md`
-3. `wiki/projects/rf/subprojects/startopolgy10/map.md`
-4. `wiki/projects/rf/subprojects/startopolgy10/knowledge/runtime-startup.md`
+1. `wiki/projects/rf/startopolgy10/skills/session-start.md`
+2. `wiki/projects/rf/startopolgy10/status.md`
+3. `wiki/projects/rf/startopolgy10/map.md`
+4. `wiki/projects/rf/startopolgy10/knowledge/runtime-startup.md`
 
-The full subproject subtree is:
+The full project subtree is:
 
-- `wiki/projects/rf/subprojects/startopolgy10/`
+- `wiki/projects/rf/startopolgy10/`
 
 ## Minimal Clone Workflow
 

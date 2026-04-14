@@ -6,7 +6,7 @@ This index is the entry point for finding relevant context inside the wiki.
 
 - [shared/skills/README.md](./shared/skills/README.md) - Cross-project working conventions and reusable operating rules.
 - [shared/skills/wiki-update-workflow.md](./shared/skills/wiki-update-workflow.md) - Workflow for filing new state, knowledge, and pages back into the wiki.
-- [shared/skills/project-bootstrap.md](./shared/skills/project-bootstrap.md) - Procedure for adding a new project or subproject to the wiki.
+- [shared/skills/project-bootstrap.md](./shared/skills/project-bootstrap.md) - Procedure for adding a new project or child project to the wiki.
 - [shared/skills/public-repo-safety.md](./shared/skills/public-repo-safety.md) - Redaction and review rules for working in this public repository.
 - [shared/knowledge/README.md](./shared/knowledge/README.md) - Cross-project lessons that are not tied to one specific project.
 
@@ -23,23 +23,23 @@ This index is the entry point for finding relevant context inside the wiki.
 
 ### hampter
 
-- [projects/hampter/status.md](./projects/hampter/status.md) - Parent-project summary, current state, and subproject relationships.
+- [projects/hampter/status.md](./projects/hampter/status.md) - Parent-project summary, current state, and child-project relationships.
 - [projects/hampter/map.md](./projects/hampter/map.md) - HAMPTER hierarchy and the role of `tiaga_face_v0.1`.
 - [projects/hampter/skills/README.md](./projects/hampter/skills/README.md) - Parent-level working rules.
 - [projects/hampter/knowledge/README.md](./projects/hampter/knowledge/README.md) - Parent-level durable notes.
 
-#### hampter / subprojects / tiaga_face_v0.1
+#### hampter / tiaga_face_v0.1
 
-- [projects/hampter/subprojects/tiaga_face_v0.1/status.md](./projects/hampter/subprojects/tiaga_face_v0.1/status.md) - Current state and decisions for the face-renderer subproject.
-- [projects/hampter/subprojects/tiaga_face_v0.1/map.md](./projects/hampter/subprojects/tiaga_face_v0.1/map.md) - Repository-root file layout, runtime entry points, and analysis tooling.
-- [projects/hampter/subprojects/tiaga_face_v0.1/skills/README.md](./projects/hampter/subprojects/tiaga_face_v0.1/skills/README.md) - Subproject-specific maintenance entry point.
-- [projects/hampter/subprojects/tiaga_face_v0.1/skills/agent-workflow.md](./projects/hampter/subprojects/tiaga_face_v0.1/skills/agent-workflow.md) - Required workflow for geometry and prompt work.
-- [projects/hampter/subprojects/tiaga_face_v0.1/knowledge/README.md](./projects/hampter/subprojects/tiaga_face_v0.1/knowledge/README.md) - Subproject knowledge hub.
-- [projects/hampter/subprojects/tiaga_face_v0.1/knowledge/design.md](./projects/hampter/subprojects/tiaga_face_v0.1/knowledge/design.md) - Architecture, philosophy, and DSL model.
-- [projects/hampter/subprojects/tiaga_face_v0.1/knowledge/prompts.md](./projects/hampter/subprojects/tiaga_face_v0.1/knowledge/prompts.md) - Prompt assets and usage rules.
-- [projects/hampter/subprojects/tiaga_face_v0.1/knowledge/smile-shape.md](./projects/hampter/subprojects/tiaga_face_v0.1/knowledge/smile-shape.md) - Smile geometry and renderer regime notes.
-- [projects/hampter/subprojects/tiaga_face_v0.1/knowledge/known-issues.md](./projects/hampter/subprojects/tiaga_face_v0.1/knowledge/known-issues.md) - Durable quirks and caveats.
-- [projects/hampter/subprojects/tiaga_face_v0.1/knowledge/repository-hosting.md](./projects/hampter/subprojects/tiaga_face_v0.1/knowledge/repository-hosting.md) - Canonical GitHub repository, branch, and runtime metadata for this subproject.
+- [projects/hampter/tiaga_face_v0.1/status.md](./projects/hampter/tiaga_face_v0.1/status.md) - Current state and decisions for the face-renderer project page.
+- [projects/hampter/tiaga_face_v0.1/map.md](./projects/hampter/tiaga_face_v0.1/map.md) - Repository-root file layout, runtime entry points, and analysis tooling.
+- [projects/hampter/tiaga_face_v0.1/skills/README.md](./projects/hampter/tiaga_face_v0.1/skills/README.md) - Project-specific maintenance entry point.
+- [projects/hampter/tiaga_face_v0.1/skills/agent-workflow.md](./projects/hampter/tiaga_face_v0.1/skills/agent-workflow.md) - Required workflow for geometry and prompt work.
+- [projects/hampter/tiaga_face_v0.1/knowledge/README.md](./projects/hampter/tiaga_face_v0.1/knowledge/README.md) - Project knowledge hub.
+- [projects/hampter/tiaga_face_v0.1/knowledge/design.md](./projects/hampter/tiaga_face_v0.1/knowledge/design.md) - Architecture, philosophy, and DSL model.
+- [projects/hampter/tiaga_face_v0.1/knowledge/prompts.md](./projects/hampter/tiaga_face_v0.1/knowledge/prompts.md) - Prompt assets and usage rules.
+- [projects/hampter/tiaga_face_v0.1/knowledge/smile-shape.md](./projects/hampter/tiaga_face_v0.1/knowledge/smile-shape.md) - Smile geometry and renderer regime notes.
+- [projects/hampter/tiaga_face_v0.1/knowledge/known-issues.md](./projects/hampter/tiaga_face_v0.1/knowledge/known-issues.md) - Durable quirks and caveats.
+- [projects/hampter/tiaga_face_v0.1/knowledge/repository-hosting.md](./projects/hampter/tiaga_face_v0.1/knowledge/repository-hosting.md) - Canonical GitHub repository, branch, and runtime metadata for this project page.
 
 ### hampter_lab_branding
 
@@ -69,19 +69,19 @@ This index is the entry point for finding relevant context inside the wiki.
 - [projects/rf/knowledge/README.md](./projects/rf/knowledge/README.md) - Parent-level RF knowledge hub.
 - [projects/rf/knowledge/router-vs-middleware.md](./projects/rf/knowledge/router-vs-middleware.md) - Boundary between Linux router/AP work and Fleet AirLink middleware.
 
-#### rf / subprojects / startopolgy10
+#### rf / startopolgy10
 
-- [projects/rf/subprojects/startopolgy10/status.md](./projects/rf/subprojects/startopolgy10/status.md) - Current state, priorities, decisions, and start-here entry point for Fleet AirLink star-topology work.
-- [projects/rf/subprojects/startopolgy10/map.md](./projects/rf/subprojects/startopolgy10/map.md) - Repository layout, key runtime files, ports, and execution notes.
-- [projects/rf/subprojects/startopolgy10/skills/README.md](./projects/rf/subprojects/startopolgy10/skills/README.md) - Repeatable workflow rules for this subproject.
-- [projects/rf/subprojects/startopolgy10/skills/session-start.md](./projects/rf/subprojects/startopolgy10/skills/session-start.md) - First-read handoff page for a new session that needs to become productive quickly.
-- [projects/rf/subprojects/startopolgy10/knowledge/README.md](./projects/rf/subprojects/startopolgy10/knowledge/README.md) - Subproject knowledge hub.
-- [projects/rf/subprojects/startopolgy10/knowledge/repository-access.md](./projects/rf/subprojects/startopolgy10/knowledge/repository-access.md) - Public repository name, clone URL, and exact wiki entry paths for this subproject.
-- [projects/rf/subprojects/startopolgy10/knowledge/runtime-startup.md](./projects/rf/subprojects/startopolgy10/knowledge/runtime-startup.md) - Immediate startup checklist and runnable paths for a fresh session.
-- [projects/rf/subprojects/startopolgy10/knowledge/implementation-history.md](./projects/rf/subprojects/startopolgy10/knowledge/implementation-history.md) - Major implementation milestones and durable lessons.
-- [projects/rf/subprojects/startopolgy10/knowledge/testing-and-validation.md](./projects/rf/subprojects/startopolgy10/knowledge/testing-and-validation.md) - Unit, simulation, hwsim, and GUI validation summary.
-- [projects/rf/subprojects/startopolgy10/knowledge/networking-and-node-onboarding.md](./projects/rf/subprojects/startopolgy10/knowledge/networking-and-node-onboarding.md) - How to move from loopback demos to real nodes and routed deployments.
-- [projects/rf/subprojects/startopolgy10/knowledge/video-routing-and-gui.md](./projects/rf/subprojects/startopolgy10/knowledge/video-routing-and-gui.md) - Video token routing, preview/live fan-out, and GUI behavior.
-- [projects/rf/subprojects/startopolgy10/knowledge/hwsim-and-kernel-notes.md](./projects/rf/subprojects/startopolgy10/knowledge/hwsim-and-kernel-notes.md) - Kernel and hwsim-specific operational notes.
-- [projects/rf/subprojects/startopolgy10/knowledge/known-gaps.md](./projects/rf/subprojects/startopolgy10/knowledge/known-gaps.md) - Current limitations and missing follow-up work.
-- [projects/rf/subprojects/startopolgy10/knowledge/rf-power-and-antenna-guidance.md](./projects/rf/subprojects/startopolgy10/knowledge/rf-power-and-antenna-guidance.md) - Starting guidance for TX power, antenna gain, and two-radio use.
+- [projects/rf/startopolgy10/status.md](./projects/rf/startopolgy10/status.md) - Current state, priorities, decisions, and start-here entry point for Fleet AirLink star-topology work.
+- [projects/rf/startopolgy10/map.md](./projects/rf/startopolgy10/map.md) - Repository layout, key runtime files, ports, and execution notes.
+- [projects/rf/startopolgy10/skills/README.md](./projects/rf/startopolgy10/skills/README.md) - Repeatable workflow rules for this project page.
+- [projects/rf/startopolgy10/skills/session-start.md](./projects/rf/startopolgy10/skills/session-start.md) - First-read handoff page for a new session that needs to become productive quickly.
+- [projects/rf/startopolgy10/knowledge/README.md](./projects/rf/startopolgy10/knowledge/README.md) - Project knowledge hub.
+- [projects/rf/startopolgy10/knowledge/repository-access.md](./projects/rf/startopolgy10/knowledge/repository-access.md) - Public repository name, clone URL, and exact wiki entry paths for this project page.
+- [projects/rf/startopolgy10/knowledge/runtime-startup.md](./projects/rf/startopolgy10/knowledge/runtime-startup.md) - Immediate startup checklist and runnable paths for a fresh session.
+- [projects/rf/startopolgy10/knowledge/implementation-history.md](./projects/rf/startopolgy10/knowledge/implementation-history.md) - Major implementation milestones and durable lessons.
+- [projects/rf/startopolgy10/knowledge/testing-and-validation.md](./projects/rf/startopolgy10/knowledge/testing-and-validation.md) - Unit, simulation, hwsim, and GUI validation summary.
+- [projects/rf/startopolgy10/knowledge/networking-and-node-onboarding.md](./projects/rf/startopolgy10/knowledge/networking-and-node-onboarding.md) - How to move from loopback demos to real nodes and routed deployments.
+- [projects/rf/startopolgy10/knowledge/video-routing-and-gui.md](./projects/rf/startopolgy10/knowledge/video-routing-and-gui.md) - Video token routing, preview/live fan-out, and GUI behavior.
+- [projects/rf/startopolgy10/knowledge/hwsim-and-kernel-notes.md](./projects/rf/startopolgy10/knowledge/hwsim-and-kernel-notes.md) - Kernel and hwsim-specific operational notes.
+- [projects/rf/startopolgy10/knowledge/known-gaps.md](./projects/rf/startopolgy10/knowledge/known-gaps.md) - Current limitations and missing follow-up work.
+- [projects/rf/startopolgy10/knowledge/rf-power-and-antenna-guidance.md](./projects/rf/startopolgy10/knowledge/rf-power-and-antenna-guidance.md) - Starting guidance for TX power, antenna gain, and two-radio use.

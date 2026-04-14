@@ -2,7 +2,7 @@
 
 ## Summary
 
-The `website` subproject is the live Astro-based HAMPTER LAB site. It functions as the current public brand surface, a minimal archive shell, and the host for the integrated TAIGA face runtime.
+The `website` page is the live Astro-based HAMPTER LAB site. It functions as the current public brand surface, a minimal archive shell, and the host for the integrated TAIGA face runtime.
 
 ## Current State
 
@@ -13,7 +13,7 @@ The `website` subproject is the live Astro-based HAMPTER LAB site. It functions 
 - Homepage currently shows only one real `MAKES` entry: `TAIGA Face Runtime`
 - `DEV LOG` and `/lab/` are empty-state placeholders until real posts are published
 - Mock detail routes for old `makes` and `lab` entries were removed
-- Related Codex skills are now filed in the wiki as part of this subproject context
+- Related Codex skills are now filed in the wiki as part of this website context
 - The site should be operated as a showcase surface separate from project-experiment repos
 - Normal deployment path is `push to origin/main` and let Vercel redeploy automatically.
 - Manual production deploys should be treated as repair actions, not the default workflow.
