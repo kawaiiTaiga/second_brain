@@ -1,8 +1,13 @@
 # second-brain Knowledge
 
-Use this folder for durable project-specific knowledge.
+Read this page after [../index.md](../index.md). This is the local knowledge hub for the second-brain repository.
 
-Planned topics:
-- Repository hosting and access details
-- Maintenance decisions
-- Future workflow improvements
+## Deep Pages
+
+- [repository-hosting.md](./repository-hosting.md) - Canonical GitHub repository, remote, branch, and sync metadata for this wiki repo.
+
+## Rules
+
+- Keep durable repository facts here.
+- Keep workflow instructions in `skills/`.
+- Add new deep knowledge pages here before expecting a fresh session to find them quickly.

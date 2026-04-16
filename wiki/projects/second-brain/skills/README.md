@@ -1,12 +1,14 @@
 # second-brain Skills
 
-Use this folder for project-specific workflows that should guide future maintenance.
+Read this page after [../index.md](../index.md). This is the local workflow hub for the second-brain repository.
 
-Available skills:
+## Deep Pages
+
 - [repository-maintenance.md](./repository-maintenance.md) - Required workflow for keeping the pattern docs, wiki index, and public-repo hygiene aligned.
 
-Baseline rules:
+## Rules
+
 - Keep `LLM-Wiki.md` focused on the pattern, not day-to-day project status.
 - Use `wiki/projects/second-brain/knowledge/` for durable repository-specific learnings.
-- Update `wiki/index.md` whenever a new wiki page is added.
+- Update the nearest hub page and `wiki/index.md` when navigation changes.
 - Append meaningful milestones to `wiki/log.md`.

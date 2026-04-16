@@ -1,8 +1,12 @@
 # hampter_lab_branding Knowledge
 
-Use this folder for durable brand-level knowledge that applies across multiple HAMPTER LAB surfaces.
+Read this page after [../index.md](../index.md). This is the parent-level knowledge hub for HAMPTER LAB branding.
 
-Current topics:
+## Deep Pages
 
-- Active brand tone: cold, clean, lab/corporate
-- Parent-child project relationship between brand work and the website surface
+- [brand-direction.md](./brand-direction.md) - Active brand tone, look, and surface strategy.
+
+## Rules
+
+- Keep surface-independent brand facts here.
+- Put website-only operational details under `website/knowledge/`.

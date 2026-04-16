@@ -1,8 +1,13 @@
 # hampter Skills
 
-Use this folder for parent-level HAMPTER workflows that apply across multiple HAMPTER child projects.
+Read this page after [../index.md](../index.md). This is the parent-level workflow hub for HAMPTER.
 
-Current rules:
+## Current State
+
+- No deep parent-level workflow pages are registered yet.
+
+## Rules
+
 - Keep parent-level process here.
 - Keep project-specific workflow inside each child project's `skills/` folder.
 - Preserve the `hampter -> <name>` hierarchy in the wiki.

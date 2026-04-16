@@ -22,6 +22,11 @@
 - Added second-stage `index.md` pages for shared space, parent projects, and active child projects.
 - Shifted the wiki toward `root index -> project index -> local hub` navigation instead of listing deep notes at the root.
 
+## [2026-04-16] second-brain | Standardized local hub pages
+- Aligned `skills/README.md` and `knowledge/README.md` pages across projects so each one states its role as a local hub.
+- Kept the structure shallow: root index, project index, local hub, then leaf pages.
+- Clarified that the structure only needs to be strict enough to prevent LLM confusion, not to satisfy a perfect taxonomy.
+
 ## [2026-04-13] second-brain | Added wiki maintenance skills
 - Added shared skills for wiki updates, project bootstrap, and public-repo safety.
 - Added a project-specific maintenance workflow for the `second_brain` repository.

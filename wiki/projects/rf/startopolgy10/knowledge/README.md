@@ -1,14 +1,21 @@
 # startopolgy10 Knowledge
 
-Use this folder for durable implementation facts, validation notes, and operational guidance for Fleet AirLink.
+Read this page after [../index.md](../index.md). This is the local knowledge hub for Fleet AirLink star-topology work.
 
-Current topics:
+## Deep Pages
 
-- repository name, clone path, and entry files for new operators
-- implementation milestones and major changes
-- logical and hwsim validation results
-- networking, router, and node-onboarding guidance
-- video routing and GUI behavior
-- kernel and hwsim-specific quirks
-- current known gaps and follow-up work
-- RF power and antenna starting guidance
+- [repository-access.md](./repository-access.md) - Repository name, clone URL, and exact wiki entry paths.
+- [runtime-startup.md](./runtime-startup.md) - Immediate startup checklist and runnable paths.
+- [implementation-history.md](./implementation-history.md) - Major implementation milestones and durable lessons.
+- [testing-and-validation.md](./testing-and-validation.md) - Unit, simulation, hwsim, and GUI validation summary.
+- [networking-and-node-onboarding.md](./networking-and-node-onboarding.md) - Node onboarding and routed deployment guidance.
+- [video-routing-and-gui.md](./video-routing-and-gui.md) - Video routing and GUI behavior.
+- [hwsim-and-kernel-notes.md](./hwsim-and-kernel-notes.md) - Kernel and hwsim-specific operational notes.
+- [known-gaps.md](./known-gaps.md) - Current limitations and follow-up work.
+- [rf-power-and-antenna-guidance.md](./rf-power-and-antenna-guidance.md) - Starting RF power and antenna guidance.
+
+## Rules
+
+- Keep durable implementation facts here.
+- Keep procedure in `skills/`.
+- Add new deep notes here as soon as they become relevant to future sessions.

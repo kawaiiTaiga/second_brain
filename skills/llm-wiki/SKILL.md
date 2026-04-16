@@ -12,6 +12,7 @@ This skill exists to give future LLM sessions durable project knowledge they wou
 Use this skill to build and maintain a Markdown repository that preserves project context across LLM sessions.
 
 Keep the wiki focused on information the model cannot know by default: project status, decision history, folder maps, working conventions, edge cases, and durable operational knowledge.
+Prefer a structure that is clear enough for LLM navigation over a perfectly theoretical taxonomy.
 
 ## Core Workflow
 
@@ -89,6 +90,19 @@ Treat the wiki as a staged reading system for LLMs instead of a pile of Markdown
 
 Do not expect a new session to read the whole wiki. The index and hub pages should narrow the search space quickly.
 
+## Navigation Depth
+
+Prefer at most three navigation stages before leaf pages:
+
+1. Root index: `wiki/index.md`
+2. Project or shared index: `.../index.md`
+3. Local hub: usually `skills/README.md` or `knowledge/README.md`
+
+After that, link directly to leaf pages.
+
+Do not add extra index layers unless the current layer is genuinely overloaded and confusing.
+The structure only needs to be strict enough that an LLM can find the right page quickly without guessing.
+
 ## Index-First Rules
 
 Use `index.md` as the canonical top-level navigation page.
@@ -101,6 +115,7 @@ Use `index.md` as the canonical top-level navigation page.
 - When editing the wiki, update the relevant index or hub page in the same pass.
 
 The goal is simple: a fresh LLM session should be able to open `wiki/index.md`, choose one branch, and become productive without reading unrelated documents.
+Keep the wider context alive while refining lower layers: when adding a new leaf, update the nearest hub and keep the higher-level index summaries intact.
 
 ## Document Separation Rules
 

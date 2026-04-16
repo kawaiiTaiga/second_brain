@@ -14,6 +14,8 @@ Use the wiki as a layered navigation system:
 - `wiki/index.md` is the first stop for a fresh LLM session.
 - `status.md`, `skills/README.md`, and `knowledge/README.md` are local hubs.
 - Leaf pages should be reached through those hubs, not discovered by luck.
+- Keep the navigation depth shallow: root index -> project index -> local hub -> leaf.
+- Do not over-engineer the structure if the current layout is already easy for an LLM to follow.
 
 ## `wiki/index.md`
 

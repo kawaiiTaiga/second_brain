@@ -1,9 +1,15 @@
 # website Knowledge
 
-Use this folder for durable website facts and operational details.
+Read this page after [../index.md](../index.md). This is the local knowledge hub for the HAMPTER LAB website.
 
-Current topics:
+## Deep Pages
 
-- GitHub and Vercel hosting locations
-- TAIGA face runtime integration strategy
-- Content-state decisions such as removing mock entries
+- [repository-hosting.md](./repository-hosting.md) - Canonical GitHub and Vercel hosting details.
+- [content-workflow.md](./content-workflow.md) - Durable publishing and content-state rules.
+- [routes-and-surfaces.md](./routes-and-surfaces.md) - Current public routes and homepage surface boundaries.
+- [taiga-face-runtime.md](./taiga-face-runtime.md) - TAIGA runtime integration notes.
+
+## Rules
+
+- Keep durable website facts here.
+- Keep repeatable procedure in `skills/`.

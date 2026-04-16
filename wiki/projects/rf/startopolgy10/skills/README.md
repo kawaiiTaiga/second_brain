@@ -1,16 +1,13 @@
 # startopolgy10 Skills
 
-Parent project:
-- `rf`
+Read this page after [../index.md](../index.md). This is the local workflow hub for Fleet AirLink star-topology work.
 
-Use this folder for repeatable workflows that govern how the Fleet AirLink star-topology work should be maintained.
-
-## Start Here
+## Deep Pages
 
 - `session-start.md` is the first page a new session should read.
 - Treat it as the handoff page that gets an agent from zero context to productive context quickly.
 
-## Working Rules
+## Rules
 
 - Read `status.md` first, then `map.md`, then the specific knowledge pages needed for the task.
 - Keep local single-machine demo assumptions separate from real multi-node deployment guidance.

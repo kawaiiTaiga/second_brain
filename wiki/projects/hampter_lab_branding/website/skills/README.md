@@ -1,13 +1,16 @@
 # website Skills
 
-Use this folder for repeatable workflows that govern how the HAMPTER LAB website should be maintained.
+Read this page after [../index.md](../index.md). This is the local workflow hub for the HAMPTER LAB website.
 
-## Core Workflows
+## Deep Pages
 
-- Site maintenance skill source: `C:\Users\dukes\.codex\skills\hampter-site-maintainer\SKILL.md`
-- Post publishing skill source: `C:\Users\dukes\.codex\skills\hampter-post-publisher\SKILL.md`
-- Wiki maintenance skill source: `C:\Users\dukes\.codex\skills\llm-wiki\SKILL.md`
-- Showcase boundary rule: `showcase-only-workflow.md`
+- [showcase-only-workflow.md](./showcase-only-workflow.md) - Boundary between website-only changes and changes that belong in another project repo.
+
+## Referenced Skills
+
+- `hampter-site-maintainer`
+- `hampter-post-publisher`
+- `llm-wiki`
 
 ## Working Rules
 

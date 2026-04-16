@@ -1,9 +1,13 @@
 # hampter_lab_branding Skills
 
-Use this folder for parent-level workflows that affect the overall HAMPTER LAB brand rather than only the website implementation.
+Read this page after [../index.md](../index.md). This is the parent-level workflow hub for HAMPTER LAB branding.
 
-Initial rules:
+## Current State
+
+- No deep parent-level workflow pages are registered yet.
+
+## Rules
 
 - Keep brand-level decisions and direction changes in `status.md`.
 - Keep website-specific procedures in `website/skills/README.md`.
-- When a future brand surface appears, add it directly under `hampter_lab_branding/` and register it in `wiki/index.md`.
+- When a future brand surface appears, add it directly under `hampter_lab_branding/` and register it in the parent index and relevant hub pages.
