@@ -9,12 +9,20 @@ Keep `skills/` and `knowledge/` distinct:
 - `skills/` is for instructions and working rules.
 - `knowledge/` is for facts, locations, system behavior, and durable learnings.
 
+Use the wiki as a layered navigation system:
+
+- `wiki/index.md` is the first stop for a fresh LLM session.
+- `status.md`, `skills/README.md`, and `knowledge/README.md` are local hubs.
+- Leaf pages should be reached through those hubs, not discovered by luck.
+
 ## `wiki/index.md`
 
 ```md
 # Wiki Index
 
 This index is the entry point for finding relevant context inside the wiki.
+
+Read this file first, then jump to the smallest relevant project or subproject hub.
 
 ## Shared
 
@@ -37,6 +45,8 @@ This index is the entry point for finding relevant context inside the wiki.
 - [projects/<project-name>/subprojects/<subproject-name>/skills/README.md](./projects/<project-name>/subprojects/<subproject-name>/skills/README.md) - Subproject-specific workflows.
 - [projects/<project-name>/subprojects/<subproject-name>/knowledge/README.md](./projects/<project-name>/subprojects/<subproject-name>/knowledge/README.md) - Durable subproject knowledge.
 ```
+
+Keep the root index selective. Do not dump every deep note here once the wiki grows. Link to hubs and let the hubs fan out.
 
 ## `wiki/log.md`
 
@@ -147,6 +157,7 @@ Initial rules:
 - Add new pages to `wiki/index.md`.
 - Append meaningful milestones to `wiki/log.md`.
 - Keep Git and sync instructions here, not only in status notes.
+- Point to the specific deeper workflow pages that a fresh session may need next.
 ```
 
 ## `knowledge/README.md`
@@ -161,6 +172,7 @@ Planned topics:
 - Resolved edge cases
 - Operational lessons
 - Repository hosting and sync details
+- Links to the important deep knowledge pages in this area
 ```
 
 ## `knowledge/repository-hosting.md`
@@ -211,6 +223,7 @@ Use this quick rule when filing information:
 - "Is this about the parent project or one child subproject?" -> file it at the matching level
 - "Is this a rule for how we operate?" -> `skills/`
 - "Is this a fact about where something lives or how it behaves?" -> `knowledge/`
+- "Will a fresh session need help finding this later?" -> add or update the nearest index or hub page
 
 ## Git Heuristic
 

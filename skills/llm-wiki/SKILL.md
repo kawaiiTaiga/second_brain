@@ -7,6 +7,8 @@ description: Create, initialize, expand, publish, or clean up a persistent Markd
 
 ## Overview
 
+This skill exists to give future LLM sessions durable project knowledge they would not otherwise have.
+
 Use this skill to build and maintain a Markdown repository that preserves project context across LLM sessions.
 
 Keep the wiki focused on information the model cannot know by default: project status, decision history, folder maps, working conventions, edge cases, and durable operational knowledge.
@@ -74,6 +76,31 @@ wiki/
 - `log.md`: append-only dated milestone history
 
 Read [references/templates.md](./references/templates.md) when creating pages from scratch or normalizing inconsistent ones.
+
+## Read Order
+
+Treat the wiki as a staged reading system for LLMs instead of a pile of Markdown files.
+
+1. Read `wiki/index.md` first.
+2. From the index, choose the matching parent project or subproject entry point.
+3. Read that project's `status.md` before reading deeper pages.
+4. Use `map.md`, `skills/README.md`, and `knowledge/README.md` as hubs for deeper navigation.
+5. Read leaf knowledge pages only after the hub pages indicate they are relevant.
+
+Do not expect a new session to read the whole wiki. The index and hub pages should narrow the search space quickly.
+
+## Index-First Rules
+
+Use `index.md` as the canonical top-level navigation page.
+
+- Every new project must be registered in `wiki/index.md`.
+- Every new subproject must be registered in `wiki/index.md` under its parent project.
+- Root `wiki/index.md` should list entry points, not every deep note.
+- Deep pages should be discoverable from the nearest hub page such as `knowledge/README.md` or `skills/README.md`.
+- If a section becomes crowded, create or expand a local hub page instead of bloating the root index.
+- When editing the wiki, update the relevant index or hub page in the same pass.
+
+The goal is simple: a fresh LLM session should be able to open `wiki/index.md`, choose one branch, and become productive without reading unrelated documents.
 
 ## Document Separation Rules
 
@@ -176,6 +203,7 @@ Record information where future sessions will look first:
 - Put repeatable working rules in `skills/`.
 - Put solved bugs, vendor quirks, and durable lessons in `knowledge/`.
 - Put cross-project items in `shared/` instead of duplicating them.
+- Put new navigation links in `index.md` or the nearest hub page at the same time you create the page.
 
 Do not store obvious general knowledge just because it is true. Prefer information that is specific to the user's work.
 
@@ -189,6 +217,7 @@ When asked to clean up the wiki:
 4. Ensure `index.md` matches the actual file set.
 5. Add or refresh `log.md` entries for meaningful structural changes.
 6. Preserve or improve the project-subproject hierarchy rather than collapsing it.
+7. Compress overloaded indexes so they point to hubs and entry points instead of turning into exhaustive dumps.
 
 ## Output Expectations
 
@@ -196,10 +225,12 @@ When you use this skill, leave the wiki in an operable state:
 
 - every important page exists,
 - `index.md` points to what matters,
+- `index.md` is the first place a fresh LLM session can use,
 - `status.md` can restore project context quickly,
 - new learnings are filed into a durable location,
 - project and subproject relationships are explicit,
 - git state is current when the user asked for publication or push,
 - the second-brain wiki stays aligned with `https://github.com/kawaiiTaiga/second_brain`,
 - repository location is documented with GitHub URLs first, not local paths,
-- completed wiki work is pushed when this repo is supposed to stay synced.
+- completed wiki work is pushed when this repo is supposed to stay synced,
+- deep pages are reachable through hub pages instead of only through brute-force search.

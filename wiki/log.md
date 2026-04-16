@@ -12,6 +12,11 @@
 - Added a repository-managed copy of the `llm-wiki` Codex skill under `skills/llm-wiki/`.
 - This keeps the GitHub repository in sync with the locally installed skill rules and templates.
 
+## [2026-04-16] second-brain | Strengthened index-first wiki navigation rules
+- Updated the `llm-wiki` skill to frame the wiki as durable knowledge for future LLM sessions.
+- Added `Read Order` and `Index-First Rules` so fresh sessions start from `wiki/index.md` and navigate through hub pages.
+- Clarified that the root index should stay selective while `status.md`, `skills/README.md`, and `knowledge/README.md` act as local hubs.
+
 ## [2026-04-13] second-brain | Added wiki maintenance skills
 - Added shared skills for wiki updates, project bootstrap, and public-repo safety.
 - Added a project-specific maintenance workflow for the `second_brain` repository.
