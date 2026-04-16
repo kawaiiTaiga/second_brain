@@ -17,6 +17,11 @@
 - Added `Read Order` and `Index-First Rules` so fresh sessions start from `wiki/index.md` and navigate through hub pages.
 - Clarified that the root index should stay selective while `status.md`, `skills/README.md`, and `knowledge/README.md` act as local hubs.
 
+## [2026-04-16] second-brain | Converted wiki navigation to staged indexes
+- Reduced `wiki/index.md` to top-level shared and project entry points.
+- Added second-stage `index.md` pages for shared space, parent projects, and active child projects.
+- Shifted the wiki toward `root index -> project index -> local hub` navigation instead of listing deep notes at the root.
+
 ## [2026-04-13] second-brain | Added wiki maintenance skills
 - Added shared skills for wiki updates, project bootstrap, and public-repo safety.
 - Added a project-specific maintenance workflow for the `second_brain` repository.
