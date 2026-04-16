@@ -9,6 +9,16 @@ This pattern is currently instantiated in the public repository `kawaiiTaiga/sec
 - Visibility: Public
 - Live wiki location: `wiki/`
 
+## Current Operating Rules
+
+The current second-brain wiki is operated with these rules:
+
+- Purpose: give future LLM sessions durable project knowledge they would not otherwise have.
+- Navigation: use staged reading, `wiki/index.md -> project/shared index -> local hub -> leaf pages`.
+- Depth: keep navigation shallow enough that an LLM can follow it without guessing.
+- Separation: keep `skills/` for working rules and `knowledge/` for durable facts.
+- Sync: after meaningful wiki changes, sync to GitHub immediately by adding, committing, and pushing to `origin/main`.
+
 ## Core Idea
 
 When you work on projects with an LLM agent, knowledge gets created and lost every session. Edge cases you discovered, architecture decisions you made, conventions you established — all gone the next time you start a conversation. This pattern fixes that.
