@@ -237,3 +237,4 @@ When the user asked for git usage:
 - record remote details in the wiki if they affect future operations.
 - for the user's second-brain wiki, default to `https://github.com/kawaiiTaiga/second_brain.git`.
 - do not stop at a local commit if the repository is meant to stay synced on GitHub.
+- default standing instruction: "After meaningful wiki changes, sync to GitHub immediately: add, commit, and push to origin/main."

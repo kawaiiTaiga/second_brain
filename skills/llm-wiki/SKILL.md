@@ -171,6 +171,14 @@ Keep the wiki synchronized with the GitHub remote instead of letting local-only 
 Prefer an immediate push after each meaningful wiki maintenance task when the user has already approved GitHub usage for that repository.
 Do not leave a completed wiki update only in local git state when this repository is meant to stay synced to GitHub.
 
+## Default Sync Command
+
+Treat the following instruction as a standing command for the user's second-brain wiki:
+
+`After meaningful wiki changes, sync to GitHub immediately: add, commit, and push to origin/main.`
+
+If the user says things like "reflect it", "save it", "record it", or "apply it", interpret that as updating the wiki and syncing the repository when GitHub sync is already part of the workflow.
+
 ## Location Writing Rules
 
 When writing wiki pages, prefer explicit, copyable GitHub locations over vague references or local-only paths.
