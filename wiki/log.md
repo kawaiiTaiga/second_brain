@@ -86,3 +86,8 @@
 ## [2026-04-13] rf | Added public repository reference for startopolgy10
 - Added `knowledge/repository-access.md` with the canonical wiki repo name, HTTPS clone URL, and relevant subtree paths.
 - Updated `skills/session-start.md` and `knowledge/README.md` so a new session can find the public wiki immediately.
+
+## [2026-04-16] rf | Added rf-agent child project
+- Added `wiki/projects/rf/rf-agent/` for the TinySA- and tshark-driven `rf-agent` CLI maintained in the local `RF_station` working tree.
+- Recorded the current repository state, session-start workflow, high-level LLM command routing, and live TinySA validation status.
+- Updated the RF parent index, map, and status pages so future sessions can discover the new child project quickly.

@@ -16,6 +16,11 @@ projects/rf/
     map.md
     skills/
     knowledge/
+  rf-agent/
+    status.md
+    map.md
+    skills/
+    knowledge/
 ```
 
 ## Scope
@@ -26,9 +31,11 @@ projects/rf/
 ## Current Child Projects
 
 - `startopolgy10` - Fleet AirLink v0.1 work for a GCS-centered star topology with up to 10 drones.
+- `rf-agent` - Orange Pi focused CLI and skill bundle for live TinySA work, packet capture, and RF-plus-network correlation.
 
 ## Documentation Boundaries
 
 - Keep AP/router, RF topology, and hardware bring-up guidance in `projects/rf/` if it applies broadly.
 - Keep repository-specific implementation details in `projects/rf/startopolgy10/`.
+- Keep TinySA, daemon, panel-control, and RF-agent workflow details in `projects/rf/rf-agent/`.
 - Use placeholders such as `<gcs-lan-ip>` instead of real private infrastructure details.

@@ -12,6 +12,7 @@ Read this page after `wiki/index.md` for RF parent-project context.
 ## Child Projects
 
 - [startopolgy10/index.md](./startopolgy10/index.md) - Fleet AirLink star-topology project index and startup entry points.
+- [rf-agent/index.md](./rf-agent/index.md) - TinySA- and tshark-driven RF measurement project index for the `rf-agent` CLI.
 
 ## Boundary Note
 
