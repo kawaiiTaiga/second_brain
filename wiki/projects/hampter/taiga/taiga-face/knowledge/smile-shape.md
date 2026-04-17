@@ -1,4 +1,4 @@
-# tiaga_face_v0.1 Smile Shape Notes
+# taiga-face Smile Shape Notes
 
 ## Why Smile Was Hard
 
@@ -58,3 +58,4 @@ Fix order:
 1. lower the preset or formula values,
 2. delay the smile-shape blend threshold,
 3. only then reconsider geometry.
+

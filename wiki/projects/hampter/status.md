@@ -2,17 +2,20 @@
 
 ## Summary
 
-`hampter` is the parent project context for formula-driven, continuously evaluated behavior systems. In this wiki, `tiaga_face_v0.1` is currently filed as a HAMPTER child project focused on expressive robot-eye rendering.
+`hampter` is the parent project context for formula-driven, continuously evaluated behavior systems. In this wiki, `taiga` is the current HAMPTER child project and now groups both the TAIGA face runtime and the reactive signage runtime.
 
 ## Current State
 
 - The parent project exists in the wiki as a container for HAMPTER-specific child projects.
-- `tiaga_face_v0.1` is the currently documented child project.
-- The child project stores renderer design, DSL philosophy, prompt assets, geometry findings, and workflow rules.
+- `taiga` is the currently documented child project.
+- `taiga/taiga-face` stores renderer design, DSL philosophy, prompt assets, geometry findings, and workflow rules for the face runtime.
+- `taiga/signage` stores the reactive signage simulator, prompt strategy, parser constraints, and runtime notes for text animation work.
 
 ## Child Projects
 
-- `tiaga_face_v0.1` - a WebGL2 + JavaScript face renderer that evaluates formulas every frame and blends transient behaviors over an always-running idle face.
+- `taiga` - a TAIGA monorepo that currently contains:
+  - `taiga-face` - a WebGL2 + JavaScript face renderer that evaluates formulas every frame and blends transient behaviors over an always-running idle face.
+  - `signage` - a browser-based reactive text-signage simulator that turns natural-language intent into low-level motion formulas.
 
 ## Next
 
@@ -22,4 +25,6 @@
 ## Decisions
 
 - `hampter` is the parent node in the wiki hierarchy.
-- `tiaga_face_v0.1` is documented as a direct child project, not as an unrelated standalone project.
+- `taiga` is documented as a direct HAMPTER child project.
+- `taiga-face` and `signage` are documented as TAIGA subprojects inside that parent project.
+

@@ -11,4 +11,5 @@ Read this page after `wiki/index.md` for HAMPTER parent-project context.
 
 ## Child Projects
 
-- [tiaga_face_v0.1/index.md](./tiaga_face_v0.1/index.md) - Face-renderer project index and local entry points.
+- [taiga/index.md](./taiga/index.md) - TAIGA monorepo parent project for face and signage runtimes.
+

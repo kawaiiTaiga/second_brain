@@ -48,5 +48,5 @@ C:\Users\dukes\Downloads\hampter_lab
 
 - The site is a static Astro build.
 - Runtime interactivity is handled client-side inside the built site.
-- The older local `TAIGA_FACE/` working folder is treated as a separate reference source and is ignored by the main website repo.
+- The TAIGA runtime source now lives in the separate `taiga` monorepo and is treated as a reference source rather than part of the website repo.
 - Durable operating notes are split further into `knowledge/repository-hosting.md`, `knowledge/content-workflow.md`, `knowledge/routes-and-surfaces.md`, and `knowledge/taiga-face-runtime.md`.

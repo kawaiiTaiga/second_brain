@@ -23,7 +23,7 @@ Read this page after [../index.md](../index.md). This is the local workflow hub 
 - Keep the visual tone cold, clean, and lab-like unless the user explicitly changes the direction.
 - Do not reintroduce mock `MAKES` or mock `DEV LOG` content.
 - If the user says "website" or "showcase", default to changing `hampter-lab` only.
-- Do not report a `taiga-face` project-repo change as if it updated the public HAMPTER LAB site.
+- Do not report a `taiga` project-repo change as if it updated the public HAMPTER LAB site.
 
 ## Content Workflow
 

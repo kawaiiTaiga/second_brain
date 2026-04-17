@@ -36,14 +36,14 @@
 - Added a project-specific maintenance workflow for the `second_brain` repository.
 - Registered the new skill pages in `wiki/index.md`.
 
-## [2026-04-13] hampter | Added tiaga_face_v0.1 project page
+## [2026-04-13] hampter | Added taiga-face project page
 - Added `hampter` as a parent project in the wiki hierarchy.
-- Filed `tiaga_face_v0.1` under `projects/hampter/tiaga_face_v0.1/`.
+- Filed `taiga-face` under `projects/hampter/taiga-face/`.
 - Recorded the face renderer's design, prompts, map, workflow, smile-shape findings, and repository metadata.
 
-## [2026-04-13] hampter | Switched tiaga_face_v0.1 location references to git-first
+## [2026-04-13] hampter | Switched taiga-face location references to git-first
 - Rewrote hosting references to use GitHub repository URLs, clone URLs, remote names, and tracked branches as the canonical locations.
-- Updated `tiaga_face_v0.1` documentation to point at `https://github.com/kawaiiTaiga/taiga-face` instead of local filesystem paths.
+- Updated `taiga-face` documentation to point at `https://github.com/kawaiiTaiga/taiga` instead of local filesystem paths.
 
 ## [2026-04-13] hampter_lab_branding | Added website project hierarchy
 - Added parent project pages for `hampter_lab_branding`.
@@ -74,7 +74,7 @@
 - Recorded implementation history, test results, hwsim/kernel notes, networking/router guidance, GUI/video routing behavior, current known gaps, and RF power guidance.
 
 ## [2026-04-14] wiki | Flattened remaining nested project directories
-- Moved `projects/hampter/tiaga_face_v0.1/` into the parent project's top level.
+- Moved `projects/hampter/taiga-face/` into the parent project's top level.
 - Moved `projects/rf/startopolgy10/` into the parent project's top level.
 - Updated wiki references to stop using an extra nested container path.
 
@@ -91,3 +91,9 @@
 - Added `wiki/projects/rf/rf-agent/` for the TinySA- and tshark-driven `rf-agent` CLI maintained in the local `RF_station` working tree.
 - Recorded the current repository state, session-start workflow, high-level LLM command routing, and live TinySA validation status.
 - Updated the RF parent index, map, and status pages so future sessions can discover the new child project quickly.
+
+## [2026-04-17] hampter | Reframed TAIGA as a parent project and added signage
+- Renamed the TAIGA experiment repository from `taiga-face` to `taiga`.
+- Recorded the new monorepo layout with `taiga-face/` and `signage/` subdirectories.
+- Moved the old direct child wiki pages under `projects/hampter/taiga/taiga-face/`.
+- Added a new `projects/hampter/taiga/signage/` subproject with runtime, prompting, and hosting notes.

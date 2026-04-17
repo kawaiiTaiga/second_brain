@@ -22,6 +22,7 @@
 
 ## Local Reference Source
 
-- There is a separate local working folder named `TAIGA_FACE` under the website workspace
-- It is treated as a reference/prototype source
-- The main website repository ignores that folder so it is not accidentally committed into the site repo
+- The current experiment source is the TAIGA monorepo at `https://github.com/kawaiiTaiga/taiga`
+- The face runtime lives under the `taiga-face/` subdirectory in that repo
+- The signage runtime lives beside it under `signage/`
+- The website repository remains separate and should not absorb the TAIGA monorepo directly

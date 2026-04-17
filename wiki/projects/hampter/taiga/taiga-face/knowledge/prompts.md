@@ -1,4 +1,4 @@
-# tiaga_face_v0.1 Prompts
+# taiga-face Prompts
 
 ## Canonical Prompt Assets
 
@@ -43,3 +43,4 @@ For transient reactions:
 ## Prompting Principle
 
 The prompt should constrain the geometry enough that different models stay inside the same emotional family, while still allowing stylistic variation in formulas.
+

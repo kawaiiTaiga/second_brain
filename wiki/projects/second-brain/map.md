@@ -23,11 +23,21 @@
         map.md
         skills/
         knowledge/
-        tiaga_face_v0.1/
+        taiga/
           status.md
           map.md
           skills/
           knowledge/
+          taiga-face/
+            status.md
+            map.md
+            skills/
+            knowledge/
+          signage/
+            status.md
+            map.md
+            skills/
+            knowledge/
 ```
 
 ## File Roles
@@ -41,11 +51,13 @@
 - `wiki/projects/second-brain/map.md` - structural reference for this repository.
 - `wiki/projects/second-brain/knowledge/repository-hosting.md` - GitHub hosting and publication details.
 - `wiki/projects/hampter/status.md` - parent-level HAMPTER context.
-- `wiki/projects/hampter/tiaga_face_v0.1/status.md` - project state for the face renderer.
-- `wiki/projects/hampter/tiaga_face_v0.1/map.md` - source layout, repository location, and development runtime notes for the face renderer.
+- `wiki/projects/hampter/taiga/status.md` - TAIGA parent-project state for the monorepo.
+- `wiki/projects/hampter/taiga/taiga-face/status.md` - project state for the face renderer.
+- `wiki/projects/hampter/taiga/signage/status.md` - project state for the signage runtime.
 
 ## Notes
 
 - Keep new durable decisions in `status.md`, `skills/`, or `knowledge/` rather than only in commit messages.
 - Register new pages in `wiki/index.md` so future sessions can discover them quickly.
 - Default branch is `main` and the configured remote is `origin`.
+

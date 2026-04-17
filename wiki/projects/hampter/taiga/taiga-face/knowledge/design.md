@@ -1,4 +1,4 @@
-# tiaga_face_v0.1 Design
+# taiga-face Design
 
 ## High-Level Philosophy
 
@@ -84,3 +84,4 @@ The better rule is:
 - human intuition third.
 
 If a more coordinate-like basis is better for the LLM, that is acceptable as long as the documentation is strong.
+

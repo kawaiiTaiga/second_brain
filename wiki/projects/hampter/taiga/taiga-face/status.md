@@ -1,11 +1,11 @@
-# tiaga_face_v0.1 Status
+# taiga-face Status
 
 Parent project:
-- `hampter`
+- `taiga`
 
 ## Summary
 
-`tiaga_face_v0.1` is a HAMPTER child project: a vanilla HTML + WebGL2 robot-eye face renderer driven by a formula DSL. The runtime continuously evaluates formulas over time, blends temporary behaviors over an always-running idle face, and renders a stylized black-and-white EVE-like eye face.
+`taiga-face` is a TAIGA subproject: a vanilla HTML + WebGL2 robot-eye face renderer driven by a formula DSL. The runtime continuously evaluates formulas over time, blends temporary behaviors over an always-running idle face, and renders a stylized black-and-white EVE-like eye face.
 
 ## Current State
 
@@ -39,3 +39,4 @@ Parent project:
 - Future work should prefer fixing the coordinate system or the renderer shape family over adding emotion-specific hardcoded modes.
 - Smile is special. Most expressions can be produced by lid-clip geometry, but strong smile needs a separate crescent-band renderer regime.
 - The wiki is the durable reference layer for future agents; root notes are treated as implementation artifacts, not the only source of truth.
+

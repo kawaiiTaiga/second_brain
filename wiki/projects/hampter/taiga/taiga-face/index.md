@@ -1,6 +1,6 @@
-# tiaga_face_v0.1 Index
+# taiga-face Index
 
-Read this page after `projects/hampter/index.md` when the task is about the TAIGA face renderer.
+Read this page after `projects/hampter/taiga/index.md` when the task is about the TAIGA face renderer.
 
 ## Core Pages
 
@@ -14,3 +14,4 @@ Read this page after `projects/hampter/index.md` when the task is about the TAIG
 - [skills/agent-workflow.md](./skills/agent-workflow.md) - Required workflow for geometry and prompt work.
 - [knowledge/repository-hosting.md](./knowledge/repository-hosting.md) - Canonical GitHub repository and runtime metadata.
 - [knowledge/known-issues.md](./knowledge/known-issues.md) - Durable quirks and caveats to check before changing behavior.
+

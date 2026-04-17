@@ -1,4 +1,4 @@
-# tiaga_face_v0.1 Knowledge
+# taiga-face Knowledge
 
 Read this page after [../index.md](../index.md). This is the local knowledge hub for the TAIGA face renderer.
 
@@ -15,3 +15,4 @@ Read this page after [../index.md](../index.md). This is the local knowledge hub
 - Keep durable project facts here.
 - Keep operational procedure in `skills/`.
 - Add new deep pages here when they become relevant to future sessions.
+

@@ -1,4 +1,4 @@
-# tiaga_face_v0.1 Agent Workflow
+# taiga-face Agent Workflow
 
 ## Operating Model
 
@@ -45,3 +45,4 @@
 ## YAML Rule
 
 - Preserve valid indentation. Broken indentation can make the runtime interpret `behavior` and `face` incorrectly.
+

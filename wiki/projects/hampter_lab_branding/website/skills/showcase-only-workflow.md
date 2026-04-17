@@ -5,7 +5,7 @@ Use this page when the task is about the public HAMPTER LAB website surface.
 ## Core Boundary
 
 - `hampter-lab` is the showcase and brand site.
-- Project repositories such as `taiga-face` are the source of truth for the actual project experiments.
+- Project repositories such as `taiga` are the source of truth for the actual project experiments.
 - Do not confuse "change the website" with "change the project repo."
 
 ## Default Rule
@@ -17,7 +17,7 @@ If the user asks to update what appears on the public HAMPTER LAB site:
 
 If the user asks to update the actual project runtime or experiment source:
 
-- edit the matching project repo such as `https://github.com/kawaiiTaiga/taiga-face`
+- edit the matching project repo such as `https://github.com/kawaiiTaiga/taiga`
 - do not assume the showcase site should mirror that change automatically
 
 ## Source Of Truth Rule
@@ -50,7 +50,7 @@ then treat the project repo as the target unless the user explicitly says to mir
 Before editing, make the target explicit in your own working note:
 
 - `Target: hampter-lab showcase only`
-- or `Target: taiga-face project repo`
+- or `Target: taiga project repo`
 
 ## Anti-Pattern
 
@@ -63,7 +63,7 @@ That creates exactly the confusion this page is meant to prevent.
 - Adding a TAIGA card, changing `/makes/taiga_face/` on the public site, adjusting homepage layout:
   - `hampter-lab`
 - Changing the standalone TAIGA_FACE app's prompt block, internal buttons, or prototype controls:
-  - `taiga-face`
+  - `taiga`
 
 ## If Both Need Changes
 
@@ -72,3 +72,4 @@ If the user wants both:
 1. update the project repo as the experimental source
 2. separately update `hampter-lab` as the showcase surface
 3. report clearly that two repositories were changed
+

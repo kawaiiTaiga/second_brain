@@ -1,4 +1,4 @@
-# tiaga_face_v0.1 Known Issues
+# taiga-face Known Issues
 
 ## YAML Indentation Matters
 
@@ -24,3 +24,4 @@ If `node server.mjs` returns `EADDRINUSE`, the usual cause is that the server is
 In that case:
 - open the app already running on port `4173`,
 - or stop the existing process and restart.
+
