@@ -2,29 +2,25 @@
 
 ## Summary
 
-`hampter` is the parent project context for formula-driven, continuously evaluated behavior systems. In this wiki, `taiga` is the current HAMPTER child project and now groups both the TAIGA face runtime and the reactive signage runtime.
+`hampter` is a top-level project context for formula-driven, continuously evaluated behavior systems. It is no longer used as the parent node for the TAIGA monorepo inside this wiki.
 
 ## Current State
 
-- The parent project exists in the wiki as a container for HAMPTER-specific child projects.
-- `taiga` is the currently documented child project.
-- `taiga/taiga-face` stores renderer design, DSL philosophy, prompt assets, geometry findings, and workflow rules for the face runtime.
-- `taiga/signage` stores the reactive signage simulator, prompt strategy, parser constraints, and runtime notes for text animation work.
+- `hampter` now stands on its own as a sibling top-level project in the wiki.
+- The TAIGA monorepo documentation was moved out to the separate `taiga_pattern` top-level project.
+- HAMPTER-specific philosophy or future child work should stay here instead of implicitly absorbing TAIGA runtime notes.
 
-## Child Projects
+## Related Top-Level Projects
 
-- `taiga` - a TAIGA monorepo that currently contains:
-  - `taiga-face` - a WebGL2 + JavaScript face renderer that evaluates formulas every frame and blends transient behaviors over an always-running idle face.
-  - `signage` - a browser-based reactive text-signage simulator that turns natural-language intent into low-level motion formulas.
+- `taiga_pattern` - a separate top-level wiki project that documents the `taiga` GitHub monorepo.
 
 ## Next
 
-- Add more HAMPTER child projects under this parent instead of flattening them as separate top-level wiki projects.
-- Keep parent-level philosophy and cross-project conventions here if more related pages appear.
+- Keep HAMPTER-specific philosophy and cross-project conventions here.
+- Add new HAMPTER child work only if it is genuinely part of the HAMPTER hierarchy rather than a sibling project.
 
 ## Decisions
 
-- `hampter` is the parent node in the wiki hierarchy.
-- `taiga` is documented as a direct HAMPTER child project.
-- `taiga-face` and `signage` are documented as TAIGA subprojects inside that parent project.
+- `hampter` and `taiga_pattern` are peer top-level projects in the wiki.
+- The TAIGA monorepo is no longer filed under `hampter`.
 

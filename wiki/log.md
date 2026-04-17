@@ -97,3 +97,8 @@
 - Recorded the new monorepo layout with `taiga-face/` and `signage/` subdirectories.
 - Moved the old direct child wiki pages under `projects/hampter/taiga/taiga-face/`.
 - Added a new `projects/hampter/taiga/signage/` subproject with runtime, prompting, and hosting notes.
+
+## [2026-04-17] taiga_pattern | Promoted TAIGA to a top-level wiki project
+- Moved the TAIGA monorepo wiki pages from `projects/hampter/taiga/` to `projects/taiga_pattern/`.
+- Reframed `hampter` and `taiga_pattern` as sibling top-level projects instead of parent and child.
+- Updated root and project maps so future sessions navigate to TAIGA through the new top-level path.

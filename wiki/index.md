@@ -16,7 +16,11 @@ Read this file first. Then jump to the smallest relevant project or shared hub i
 
 ### hampter
 
-- [projects/hampter/index.md](./projects/hampter/index.md) - HAMPTER parent-project hub and child-project entry points.
+- [projects/hampter/index.md](./projects/hampter/index.md) - HAMPTER top-level project hub for formula-driven behavior work.
+
+### taiga_pattern
+
+- [projects/taiga_pattern/index.md](./projects/taiga_pattern/index.md) - TAIGA-pattern top-level project hub for the `taiga` monorepo and its runtimes.
 
 ### hampter_lab_branding
 

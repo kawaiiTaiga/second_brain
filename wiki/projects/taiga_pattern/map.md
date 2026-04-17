@@ -1,7 +1,4 @@
-# taiga Map
-
-Parent project:
-- `hampter`
+# taiga_pattern Map
 
 Source repository:
 - <https://github.com/kawaiiTaiga/taiga>
@@ -41,5 +38,5 @@ Tracked branch:
 
 ## Related Wiki Pages
 
-- `wiki/projects/hampter/taiga/taiga-face/` - face runtime notes.
-- `wiki/projects/hampter/taiga/signage/` - signage runtime notes.
+- `wiki/projects/taiga_pattern/taiga-face/` - face runtime notes.
+- `wiki/projects/taiga_pattern/signage/` - signage runtime notes.

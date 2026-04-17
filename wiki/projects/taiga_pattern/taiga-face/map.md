@@ -1,7 +1,7 @@
 # taiga-face Map
 
 Parent project:
-- `taiga`
+- `taiga_pattern`
 
 Source repository:
 - <https://github.com/kawaiiTaiga/taiga>
@@ -62,9 +62,8 @@ Tracked branch:
 
 ## Related Wiki Pages
 
-- `wiki/projects/hampter/status.md` - HAMPTER parent project summary.
-- `wiki/projects/hampter/taiga/status.md` - TAIGA parent project summary.
-- `wiki/projects/hampter/taiga/taiga-face/knowledge/repository-hosting.md` - canonical repository and runtime metadata.
+- `wiki/projects/taiga_pattern/status.md` - TAIGA-pattern top-level project summary.
+- `wiki/projects/taiga_pattern/taiga-face/knowledge/repository-hosting.md` - canonical repository and runtime metadata.
 
 ## Execution Notes
 

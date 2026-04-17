@@ -1,6 +1,6 @@
-# taiga Index
+# taiga_pattern Index
 
-Read this page after `projects/hampter/index.md` when the task is about the TAIGA repository or one of its runtimes.
+Read this page after `wiki/index.md` when the task is about the `taiga` repository or one of its runtimes.
 
 ## Parent Project
 

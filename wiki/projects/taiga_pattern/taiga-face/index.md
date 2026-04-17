@@ -1,6 +1,6 @@
 # taiga-face Index
 
-Read this page after `projects/hampter/taiga/index.md` when the task is about the TAIGA face renderer.
+Read this page after `projects/taiga_pattern/index.md` when the task is about the TAIGA face renderer.
 
 ## Core Pages
 

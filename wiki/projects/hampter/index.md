@@ -1,6 +1,6 @@
 # hampter Index
 
-Read this page after `wiki/index.md` for HAMPTER parent-project context.
+Read this page after `wiki/index.md` for top-level HAMPTER project context.
 
 ## Parent Project
 
@@ -9,7 +9,7 @@ Read this page after `wiki/index.md` for HAMPTER parent-project context.
 - [skills/README.md](./skills/README.md) - Parent-level workflow hub.
 - [knowledge/README.md](./knowledge/README.md) - Parent-level knowledge hub.
 
-## Child Projects
+## Related Top-Level Projects
 
-- [taiga/index.md](./taiga/index.md) - TAIGA monorepo parent project for face and signage runtimes.
+- [../taiga_pattern/index.md](../taiga_pattern/index.md) - Parallel top-level TAIGA-pattern project hub for the `taiga` monorepo.
 

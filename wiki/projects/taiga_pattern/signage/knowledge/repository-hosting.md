@@ -27,4 +27,4 @@
   - Clone URL: `https://github.com/kawaiiTaiga/second_brain.git`
   - Remote name: `origin`
   - Branch: `main`
-  - Wiki path inside that repository: `wiki/projects/hampter/taiga/signage/`
+  - Wiki path inside that repository: `wiki/projects/taiga_pattern/signage/`

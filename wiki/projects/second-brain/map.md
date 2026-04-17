@@ -23,21 +23,21 @@
         map.md
         skills/
         knowledge/
-        taiga/
+      taiga_pattern/
+        status.md
+        map.md
+        skills/
+        knowledge/
+        taiga-face/
           status.md
           map.md
           skills/
           knowledge/
-          taiga-face/
-            status.md
-            map.md
-            skills/
-            knowledge/
-          signage/
-            status.md
-            map.md
-            skills/
-            knowledge/
+        signage/
+          status.md
+          map.md
+          skills/
+          knowledge/
 ```
 
 ## File Roles
@@ -51,9 +51,9 @@
 - `wiki/projects/second-brain/map.md` - structural reference for this repository.
 - `wiki/projects/second-brain/knowledge/repository-hosting.md` - GitHub hosting and publication details.
 - `wiki/projects/hampter/status.md` - parent-level HAMPTER context.
-- `wiki/projects/hampter/taiga/status.md` - TAIGA parent-project state for the monorepo.
-- `wiki/projects/hampter/taiga/taiga-face/status.md` - project state for the face renderer.
-- `wiki/projects/hampter/taiga/signage/status.md` - project state for the signage runtime.
+- `wiki/projects/taiga_pattern/status.md` - TAIGA-pattern top-level state for the monorepo.
+- `wiki/projects/taiga_pattern/taiga-face/status.md` - project state for the face renderer.
+- `wiki/projects/taiga_pattern/signage/status.md` - project state for the signage runtime.
 
 ## Notes
 

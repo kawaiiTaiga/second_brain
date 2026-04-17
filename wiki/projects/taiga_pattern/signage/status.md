@@ -1,7 +1,7 @@
 # signage Status
 
 Parent project:
-- `taiga`
+- `taiga_pattern`
 
 ## Summary
 

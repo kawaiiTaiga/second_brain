@@ -1,6 +1,6 @@
 # signage Index
 
-Read this page after `projects/hampter/taiga/index.md` when the task is about the TAIGA reactive signage runtime.
+Read this page after `projects/taiga_pattern/index.md` when the task is about the TAIGA reactive signage runtime.
 
 ## Core Pages
 

@@ -10,33 +10,16 @@ wiki/
       map.md
       skills/
       knowledge/
-      taiga/
-        status.md
-        map.md
-        skills/
-        knowledge/
-        taiga-face/
-          status.md
-          map.md
-          skills/
-          knowledge/
-        signage/
-          status.md
-          map.md
-          skills/
-          knowledge/
 ```
 
-## Role Of This Parent Project
+## Role Of This Top-Level Project
 
 - Parent-level HAMPTER context belongs here.
-- Project-specific implementation details belong under direct child folders such as `taiga/`.
-- `taiga` is the current documented HAMPTER child project and contains the `taiga-face` and `signage` subprojects.
+- TAIGA monorepo implementation details no longer live under this folder.
+- Use sibling top-level project folders when a project deserves its own hub and hierarchy.
 
 ## Notes
 
 - Keep HAMPTER-wide philosophy or conventions at this level.
-- Keep TAIGA monorepo structure and shared repo facts at the `taiga/` level.
-- Keep renderer, formula, prompt, and geometry details at the `taiga/taiga-face/` level.
-- Keep reactive text-signage runtime details at the `taiga/signage/` level.
+- The TAIGA monorepo now lives at `wiki/projects/taiga_pattern/`.
 

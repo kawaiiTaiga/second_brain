@@ -33,7 +33,7 @@
   - Clone URL: `https://github.com/kawaiiTaiga/second_brain.git`
   - Remote name: `origin`
   - Branch: `main`
-  - Wiki path inside that repository: `wiki/projects/hampter/taiga/taiga-face/`
+  - Wiki path inside that repository: `wiki/projects/taiga_pattern/taiga-face/`
 
 ## Development Runtime
 

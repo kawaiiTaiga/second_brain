@@ -1,7 +1,7 @@
 # signage Map
 
 Parent project:
-- `taiga`
+- `taiga_pattern`
 
 Source repository:
 - <https://github.com/kawaiiTaiga/taiga>

@@ -1,4 +1,4 @@
-# taiga Repository Hosting
+# taiga_pattern Repository Hosting
 
 ## Source Repository
 
@@ -22,4 +22,4 @@
   - Clone URL: `https://github.com/kawaiiTaiga/second_brain.git`
   - Remote name: `origin`
   - Branch: `main`
-  - Wiki path inside that repository: `wiki/projects/hampter/taiga/`
+  - Wiki path inside that repository: `wiki/projects/taiga_pattern/`
