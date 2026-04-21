@@ -3,7 +3,7 @@
 ## Repository Layout
 
 ```text
-C:\Users\dukes\Downloads\hampter_lab
+/
   src/
     components/
       DevLogList.astro
@@ -46,6 +46,7 @@ C:\Users\dukes\Downloads\hampter_lab
 
 ## Notes
 
+- Source-of-truth repository: <https://github.com/kawaiiTaiga/hampter-lab>
 - The site is a static Astro build.
 - Runtime interactivity is handled client-side inside the built site.
 - The TAIGA runtime source now lives in the separate `taiga` monorepo and is treated as a reference source rather than part of the website repo.

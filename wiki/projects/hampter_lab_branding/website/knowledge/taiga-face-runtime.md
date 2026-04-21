@@ -8,11 +8,12 @@
 
 ## Important Files
 
-- `C:\Users\dukes\Downloads\hampter_lab\src\pages\makes\taiga_face.astro`
-- `C:\Users\dukes\Downloads\hampter_lab\src\components\TaigaDemo.astro`
-- `C:\Users\dukes\Downloads\hampter_lab\src\scripts\taiga-face\app.js`
-- `C:\Users\dukes\Downloads\hampter_lab\src\scripts\taiga-face\dsl-runtime.js`
-- `C:\Users\dukes\Downloads\hampter_lab\src\scripts\taiga-face\renderer.js`
+- Repository: <https://github.com/kawaiiTaiga/hampter-lab>
+- `src/pages/makes/taiga_face.astro`
+- `src/components/TaigaDemo.astro`
+- `src/scripts/taiga-face/app.js`
+- `src/scripts/taiga-face/dsl-runtime.js`
+- `src/scripts/taiga-face/renderer.js`
 
 ## Runtime Notes
 

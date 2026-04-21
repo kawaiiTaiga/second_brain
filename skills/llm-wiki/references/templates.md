@@ -209,6 +209,7 @@ Use exact values instead of vague text. Prefer:
 - full clone URL,
 - explicit remote name,
 - explicit branch name,
+- repository-relative file paths,
 - deployment target when relevant.
 
 Do not use a local filesystem path as the primary repository location when a GitHub URL exists.

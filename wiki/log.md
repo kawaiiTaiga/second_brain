@@ -31,6 +31,11 @@
 - Updated the `llm-wiki` skill to treat immediate `origin/main` sync as a standing command after meaningful wiki changes.
 - Added the same wording to the repository-tracked skill templates so future copies inherit the behavior.
 
+## [2026-04-21] second-brain | Tightened GitHub-first references
+- Updated the `llm-wiki` skill to prefer GitHub repositories and repository-relative paths whenever a canonical repo exists.
+- Removed remaining local machine path references from the HAMPTER LAB website wiki where GitHub or repo-relative references were better.
+- Replaced a local `.codex` skill path reference with a skill-name-oriented description.
+
 ## [2026-04-13] second-brain | Added wiki maintenance skills
 - Added shared skills for wiki updates, project bootstrap, and public-repo safety.
 - Added a project-specific maintenance workflow for the `second_brain` repository.

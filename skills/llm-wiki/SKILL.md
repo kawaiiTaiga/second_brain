@@ -13,6 +13,7 @@ Use this skill to build and maintain a Markdown repository that preserves projec
 
 Keep the wiki focused on information the model cannot know by default: project status, decision history, folder maps, working conventions, edge cases, and durable operational knowledge.
 Prefer a structure that is clear enough for LLM navigation over a perfectly theoretical taxonomy.
+Prefer GitHub repositories and repository-relative paths as the source of truth whenever a public or canonical repo exists.
 
 ## Core Workflow
 
@@ -188,6 +189,7 @@ When writing wiki pages, prefer explicit, copyable GitHub locations over vague r
 - Name the remote explicitly, for example `origin`.
 - Name the tracked branch explicitly, for example `main` or `origin/main`.
 - Prefer GitHub URLs over local filesystem paths when documenting repository location.
+- Prefer repository-relative paths over absolute local filesystem paths when naming important files.
 - Use a local path only when filesystem location itself is operationally important.
 - When relevant, include exact deployment targets or service URLs.
 - If a subproject has its own repository or deployment target, record that exact location in that subproject's knowledge page.
@@ -202,6 +204,7 @@ Good:
 
 - "Repository URL: https://github.com/kawaiiTaiga/second_brain"
 - "Clone URL: https://github.com/kawaiiTaiga/second_brain.git"
+- "Important file: src/pages/makes/taiga_face.astro"
 - "Push updates to origin/main"
 - "GitHub location: https://github.com/kawaiiTaiga/second_brain"
 

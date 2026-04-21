@@ -27,4 +27,5 @@
 
 ## Relevant Skill
 
-- Source skill path: `C:\Users\dukes\.codex\skills\hampter-post-publisher\SKILL.md`
+- Relevant skill: `hampter-post-publisher`
+- Repository-tracked skill reference: `skills/llm-wiki/SKILL.md` is the pattern for keeping skills versioned in the wiki repo when needed.
