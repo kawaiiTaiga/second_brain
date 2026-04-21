@@ -14,6 +14,7 @@ Use this skill to build and maintain a Markdown repository that preserves projec
 Keep the wiki focused on information the model cannot know by default: project status, decision history, folder maps, working conventions, edge cases, and durable operational knowledge.
 Prefer a structure that is clear enough for LLM navigation over a perfectly theoretical taxonomy.
 Prefer canonical GitHub URLs as the source of truth whenever a public or canonical repo exists.
+When using this skill, look at the canonical GitHub repository first for repository facts, file locations, and current tracked state before relying on local copies or remembered paths.
 
 ## Core Workflow
 
@@ -83,6 +84,7 @@ Read [references/templates.md](./references/templates.md) when creating pages fr
 
 Treat the wiki as a staged reading system for LLMs instead of a pile of Markdown files.
 
+0. If a canonical GitHub repository exists, check the GitHub repository and its tracked wiki pages first.
 1. Read `wiki/index.md` first.
 2. From the index, choose the matching parent project or subproject entry point.
 3. Read that project's `status.md` before reading deeper pages.
@@ -117,6 +119,16 @@ Use `index.md` as the canonical top-level navigation page.
 
 The goal is simple: a fresh LLM session should be able to open `wiki/index.md`, choose one branch, and become productive without reading unrelated documents.
 Keep the wider context alive while refining lower layers: when adding a new leaf, update the nearest hub and keep the higher-level index summaries intact.
+
+## GitHub-First Lookup Rule
+
+When a canonical GitHub repository exists, treat GitHub as the first place to look.
+
+- Check the GitHub repository URL before inspecting local filesystem locations.
+- Prefer GitHub-hosted wiki pages and tracked files when confirming current repository facts.
+- Use local files mainly for editing, staging, and validation after the GitHub location is known.
+- If GitHub and a local copy disagree, treat GitHub as the default source of truth until the repository is intentionally resynced.
+- Do not start from local machine paths when the same information is available on GitHub.
 
 ## Document Separation Rules
 

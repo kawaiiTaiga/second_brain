@@ -16,6 +16,7 @@ The current second-brain wiki is operated with these rules:
 - Purpose: give future LLM sessions durable project knowledge they would not otherwise have.
 - Navigation: use staged reading, `wiki/index.md -> project/shared index -> local hub -> leaf pages`.
 - Depth: keep navigation shallow enough that an LLM can follow it without guessing.
+- Lookup order: if a canonical GitHub repo exists, check GitHub first before local copies.
 - Separation: keep `skills/` for working rules and `knowledge/` for durable facts.
 - Location writing: use direct GitHub URLs for repository and file locations.
 - Sync: after meaningful wiki changes, sync to GitHub immediately by adding, committing, and pushing to `origin/main`.

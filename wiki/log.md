@@ -37,6 +37,7 @@
 ## [2026-04-21] second-brain | Tightened GitHub-only location guidance
 - Tightened the `llm-wiki` skill and wiki docs so location references use direct GitHub URLs.
 - Left local filesystem paths as exceptions only when the filesystem location itself is operationally important.
+- Added a GitHub-first lookup rule so future sessions check the canonical GitHub repo before local copies when both exist.
 - Replaced a local `.codex` skill path reference with a skill-name-oriented description.
 
 ## [2026-04-13] second-brain | Added wiki maintenance skills

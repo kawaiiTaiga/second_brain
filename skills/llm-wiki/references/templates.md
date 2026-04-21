@@ -17,6 +17,8 @@ Use the wiki as a layered navigation system:
 - Keep the navigation depth shallow: root index -> project index -> local hub -> leaf.
 - Do not over-engineer the structure if the current layout is already easy for an LLM to follow.
 
+If a canonical GitHub repository exists, start from the GitHub repository URL and tracked wiki pages before relying on local copies.
+
 ## `wiki/index.md`
 
 ```md
