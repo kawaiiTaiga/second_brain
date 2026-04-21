@@ -7,7 +7,7 @@ This pattern is currently instantiated in the public repository `kawaiiTaiga/sec
 
 - Repository URL: <https://github.com/kawaiiTaiga/second_brain>
 - Visibility: Public
-- Live wiki location: `wiki/`
+- Live wiki location: <https://github.com/kawaiiTaiga/second_brain/tree/main/wiki>
 
 ## Current Operating Rules
 
@@ -17,6 +17,7 @@ The current second-brain wiki is operated with these rules:
 - Navigation: use staged reading, `wiki/index.md -> project/shared index -> local hub -> leaf pages`.
 - Depth: keep navigation shallow enough that an LLM can follow it without guessing.
 - Separation: keep `skills/` for working rules and `knowledge/` for durable facts.
+- Location writing: use direct GitHub URLs for repository and file locations.
 - Sync: after meaningful wiki changes, sync to GitHub immediately by adding, committing, and pushing to `origin/main`.
 
 ## Core Idea

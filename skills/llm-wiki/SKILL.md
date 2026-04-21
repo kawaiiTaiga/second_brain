@@ -13,7 +13,7 @@ Use this skill to build and maintain a Markdown repository that preserves projec
 
 Keep the wiki focused on information the model cannot know by default: project status, decision history, folder maps, working conventions, edge cases, and durable operational knowledge.
 Prefer a structure that is clear enough for LLM navigation over a perfectly theoretical taxonomy.
-Prefer GitHub repositories and repository-relative paths as the source of truth whenever a public or canonical repo exists.
+Prefer canonical GitHub URLs as the source of truth whenever a public or canonical repo exists.
 
 ## Core Workflow
 
@@ -189,7 +189,7 @@ When writing wiki pages, prefer explicit, copyable GitHub locations over vague r
 - Name the remote explicitly, for example `origin`.
 - Name the tracked branch explicitly, for example `main` or `origin/main`.
 - Prefer GitHub URLs over local filesystem paths when documenting repository location.
-- Prefer repository-relative paths over absolute local filesystem paths when naming important files.
+- Use direct GitHub file URLs when naming important files.
 - Use a local path only when filesystem location itself is operationally important.
 - When relevant, include exact deployment targets or service URLs.
 - If a subproject has its own repository or deployment target, record that exact location in that subproject's knowledge page.
@@ -204,7 +204,7 @@ Good:
 
 - "Repository URL: https://github.com/kawaiiTaiga/second_brain"
 - "Clone URL: https://github.com/kawaiiTaiga/second_brain.git"
-- "Important file: src/pages/makes/taiga_face.astro"
+- "Important file: https://github.com/kawaiiTaiga/hampter-lab/blob/main/src/pages/makes/taiga_face.astro"
 - "Push updates to origin/main"
 - "GitHub location: https://github.com/kawaiiTaiga/second_brain"
 
@@ -257,6 +257,6 @@ When you use this skill, leave the wiki in an operable state:
 - project and subproject relationships are explicit,
 - git state is current when the user asked for publication or push,
 - the second-brain wiki stays aligned with `https://github.com/kawaiiTaiga/second_brain`,
-- repository location is documented with GitHub URLs first, not local paths,
+- repository location is documented with GitHub URLs only unless a local path is operationally required,
 - completed wiki work is pushed when this repo is supposed to stay synced,
 - deep pages are reachable through hub pages instead of only through brute-force search.

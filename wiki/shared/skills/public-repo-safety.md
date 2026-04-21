@@ -18,6 +18,6 @@ This repository is public. Treat every committed line as publishable.
 
 ## Safe Alternatives
 
-- Use repository-relative paths instead of workstation paths.
+- Use canonical GitHub URLs instead of workstation paths.
 - Use role-based descriptions like `production site` or `local preview server` when exact internals are unnecessary.
 - Keep sensitive details in a private system and link only if the destination is also intended to be public.

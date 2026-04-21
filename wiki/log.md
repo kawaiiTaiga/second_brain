@@ -32,8 +32,11 @@
 - Added the same wording to the repository-tracked skill templates so future copies inherit the behavior.
 
 ## [2026-04-21] second-brain | Tightened GitHub-first references
-- Updated the `llm-wiki` skill to prefer GitHub repositories and repository-relative paths whenever a canonical repo exists.
-- Removed remaining local machine path references from the HAMPTER LAB website wiki where GitHub or repo-relative references were better.
+- Updated the `llm-wiki` skill to prefer canonical GitHub URLs whenever a canonical repo exists.
+- Removed remaining local machine path references from the HAMPTER LAB website wiki where direct GitHub URLs were better.
+## [2026-04-21] second-brain | Tightened GitHub-only location guidance
+- Tightened the `llm-wiki` skill and wiki docs so location references use direct GitHub URLs.
+- Left local filesystem paths as exceptions only when the filesystem location itself is operationally important.
 - Replaced a local `.codex` skill path reference with a skill-name-oriented description.
 
 ## [2026-04-13] second-brain | Added wiki maintenance skills

@@ -16,7 +16,7 @@ The `website` page is the live Astro-based HAMPTER LAB site. It functions as the
 - The site should be operated as a showcase surface separate from project-experiment repos
 - Normal deployment path is `push to origin/main` and let Vercel redeploy automatically.
 - Manual production deploys should be treated as repair actions, not the default workflow.
-- Important website paths should be documented as repository-relative paths, not local machine paths.
+- Important website paths should be documented as direct GitHub file URLs, not local machine paths.
 
 ## Next
 

@@ -21,7 +21,7 @@ Do not move day-to-day project state back into root documents.
 ## Public Hygiene Rule
 
 - Before pushing, review the diff for machine-specific paths, private URLs, and operational details that should not be public.
-- If exact local paths are not essential, convert them to repository-relative references or neutral descriptions.
+- If exact local paths are not essential, convert them to canonical GitHub URLs or neutral descriptions.
 
 ## Consistency Check
 
