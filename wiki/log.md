@@ -111,3 +111,9 @@
 - Moved the TAIGA monorepo wiki pages from `projects/hampter/taiga/` to `projects/taiga_pattern/`.
 - Reframed `hampter` and `taiga_pattern` as sibling top-level projects instead of parent and child.
 - Updated root and project maps so future sessions navigate to TAIGA through the new top-level path.
+
+## [2026-04-27] hampter | Recorded HAMPTER Local standalone and port routing handoff
+- Updated HAMPTER status and map with canonical GitHub repository paths for `hampter-local` and `hampter-device-sdk`.
+- Added standalone app architecture notes for broker, bridge, Manager UI, MCP endpoints, and release packaging.
+- Added provisioning/MQTT host rules so future sessions remember that devices use the PC LAN IP, not `127.0.0.1`.
+- Recorded the solved SHT40-to-LED `temperature_c -> var_a` routing issue and the required device SDK `ports/state` acknowledgement flow.
